@@ -1,7 +1,7 @@
-# flutter-widget-of-the-week
+# Flutter Widget of the Week
 Practice usage of different Flutter Widget
 
-Official YouTube PlayList: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 
 **Week #1 - SafeArea**
 

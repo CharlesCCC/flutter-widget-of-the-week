@@ -22,3 +22,9 @@ Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23X
 
 - Official Youtube Tutorial: https://youtu.be/yI-8QHpGIP4
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedContainer-class.html
+
+**Week #5 - Opacity**
+
+- Official Youtube Tutorial: https://youtu.be/yI-8QHpGIP4
+- Official Doc: https://api.flutter.dev/flutter/widgets/Opacity-class.html
+

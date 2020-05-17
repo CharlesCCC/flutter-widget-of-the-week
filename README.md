@@ -28,3 +28,7 @@ Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23X
 - Official Youtube Tutorial: https://youtu.be/yI-8QHpGIP4
 - Official Doc: https://api.flutter.dev/flutter/widgets/Opacity-class.html
 
+**Week #6 - FutureBuilder**
+
+- Official Youtube Tutorial: https://youtu.be/ek8ZPdWj4Qo
+- Official Doc: https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html

@@ -32,3 +32,8 @@ Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23X
 
 - Official Youtube Tutorial: https://youtu.be/ek8ZPdWj4Qo
 - Official Doc: https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html
+
+**Week #7 - FadeTransition**
+
+- Official Youtube Tutorial: https://youtu.be/rLwWVbv3xDQ
+- Official Doc: https://api.flutter.dev/flutter/widgets/FadeTransition-class.html

@@ -1,4 +1,4 @@
-# week_6_futurebuilder
+# week_6_FutureBuilder
 
 A new Flutter project.
 

@@ -1,4 +1,4 @@
-# week_7_fadetransition
+# week_7_FadeTransition
 
 A new Flutter project.
 

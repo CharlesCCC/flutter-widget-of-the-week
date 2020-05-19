@@ -39,3 +39,8 @@ Telegram Practice Discussion group: http://t.me/csflutter
 
 - Official Youtube Tutorial: https://youtu.be/rLwWVbv3xDQ
 - Official Doc: https://api.flutter.dev/flutter/widgets/FadeTransition-class.html
+
+**Week #8 - FloatingActionButton**
+
+- Official Youtube Tutorial: https://youtu.be/2uaoEDOgk_I
+- Official Doc: https://api.flutter.dev/flutter/material/FloatingActionButton-class.html

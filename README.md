@@ -44,3 +44,8 @@ Telegram Practice Discussion group: http://t.me/csflutter
 
 - Official Youtube Tutorial: https://youtu.be/2uaoEDOgk_I
 - Official Doc: https://api.flutter.dev/flutter/material/FloatingActionButton-class.html
+
+**Week #9 - PageView**
+
+- Official Youtube Tutorial: https://youtu.be/J1gE9xvph-A
+- Official Doc: https://api.flutter.dev/flutter/widgets/PageView-class.html

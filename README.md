@@ -49,3 +49,9 @@ Telegram Practice Discussion group: http://t.me/csflutter
 
 - Official Youtube Tutorial: https://youtu.be/J1gE9xvph-A
 - Official Doc: https://api.flutter.dev/flutter/widgets/PageView-class.html
+
+**Week #10 - Table**
+
+- Official Youtube Tutorial: https://youtu.be/_lbE0wsVZSw
+- Official Doc: https://api.flutter.dev/flutter/widgets/Table-class.html
+

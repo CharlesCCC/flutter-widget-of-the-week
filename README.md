@@ -55,3 +55,7 @@ Telegram Practice Discussion group: http://t.me/csflutter
 - Official Youtube Tutorial: https://youtu.be/_lbE0wsVZSw
 - Official Doc: https://api.flutter.dev/flutter/widgets/Table-class.html
 
+**Week #11 - SliverAppBar**
+
+- Official Youtube Tutorial: https://youtu.be/R9C5KMJKluE
+- Official Doc: https://api.flutter.dev/flutter/material/SliverAppBar-class.html

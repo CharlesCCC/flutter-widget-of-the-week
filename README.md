@@ -1,5 +1,5 @@
 # Flutter Widget of the Week
-Practice of different Flutter Widget
+Practice Flutter Widget
 
 Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 

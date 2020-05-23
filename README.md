@@ -1,9 +1,11 @@
 # Flutter Widget of the Week
 Practice Flutter Widget
 
+**Telegram Discussion group**: http://t.me/csflutter 
+
 Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 
-Telegram Practice Discussion group: http://t.me/csflutter 
+Flutter Widget Catelog: https://flutter.dev/docs/development/ui/widgets 
 
 **Week #1 - SafeArea**
 

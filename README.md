@@ -59,3 +59,10 @@ Telegram Practice Discussion group: http://t.me/csflutter
 
 - Official Youtube Tutorial: https://youtu.be/R9C5KMJKluE
 - Official Doc: https://api.flutter.dev/flutter/material/SliverAppBar-class.html
+
+**Week #12 - SliverList & SliverGrid**
+
+- Official Youtube Tutorial: https://youtu.be/ORiTTaVY6mM
+- Official Doc: https://api.flutter.dev/flutter/widgets/SliverList-class.html
+- Official Doc: https://api.flutter.dev/flutter/widgets/SliverGrid-class.html
+

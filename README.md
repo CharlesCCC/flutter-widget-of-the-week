@@ -68,3 +68,7 @@ Flutter Widget Catelog: https://flutter.dev/docs/development/ui/widgets
 - Official Doc: https://api.flutter.dev/flutter/widgets/SliverList-class.html
 - Official Doc: https://api.flutter.dev/flutter/widgets/SliverGrid-class.html
 
+**Week #13 - FadeInImage**
+
+- Official Youtube Tutorial: https://youtu.be/pK738Pg9cxc
+- Official Doc: https://flutter.dev/docs/cookbook/images/fading-in-images

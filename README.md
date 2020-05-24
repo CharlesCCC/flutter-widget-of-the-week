@@ -72,3 +72,8 @@ Flutter Widget Catelog: https://flutter.dev/docs/development/ui/widgets
 
 - Official Youtube Tutorial: https://youtu.be/pK738Pg9cxc
 - Official Doc: https://flutter.dev/docs/cookbook/images/fading-in-images
+
+**Week #14 - StreamBuilder**
+
+- Official Youtube Tutorial: https://youtu.be/MkKEWHfy99Y
+- Official Doc: https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html

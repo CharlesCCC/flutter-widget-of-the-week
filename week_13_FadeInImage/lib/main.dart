@@ -55,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
             fadeInDuration: Duration(
               seconds: 2,
             ),
+            
             placeholder: kTransparentImage, //could use local gif/img as well.
             image: 'https://picsum.photos/250?image=9',
           ),

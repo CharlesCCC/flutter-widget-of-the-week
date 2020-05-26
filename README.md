@@ -77,3 +77,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 
 - Official Youtube Tutorial: https://youtu.be/MkKEWHfy99Y
 - Official Doc: https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html
+
+**Week #15 - InheritedWidget/InheritedModel**
+
+- Official Youtube Tutorial: https://youtu.be/ml5uefGgkaA
+- Official Doc: https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html
+- Official Doc: https://api.flutter.dev/flutter/widgets/InheritedModel-class.html

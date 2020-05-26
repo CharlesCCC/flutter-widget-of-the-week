@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:week_15_InheritedModel/inheritedModel.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,10 +31,18 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  int firstTick, secondTick, thirdTick;
+
   void _incrementCounter() {
     setState(() {
       _counter++;
     });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    firstTick = secondTick = thirdTick = 0;
   }
 
   @override
@@ -46,17 +55,13 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
             FrogColor(
               child: const MyWidget(),
               color: Colors.amber,
-            )
+            ),
+            NumberManagerWidget(
+              child: AsInheritedModel(),
+            ),
           ],
         ),
       ),
@@ -73,7 +78,6 @@ class MyWidget extends StatelessWidget {
   const MyWidget();
 
   Widget build(BuildContext context) {
-    // somewhere down the line
     return const MyOtherWidget();
   }
 }
@@ -87,7 +91,7 @@ class MyOtherWidget extends StatelessWidget {
       width: 200,
       height: 100,
       child: Center(
-        child: Text('color is from Inherited Widget'),
+        child: Text('color propertie is from Inherited Widget FrogColor'),
       ),
       color: frogColor.color,
     );
@@ -103,7 +107,7 @@ class FrogColor extends InheritedWidget {
         assert(child != null),
         super(key: key, child: child);
 
-  final Color color;
+  final Color color; //noticed it final here
 
   static FrogColor of(BuildContext context) {
     return context.dependOnInheritedWidgetOfExactType<FrogColor>();
@@ -111,4 +115,23 @@ class FrogColor extends InheritedWidget {
 
   @override
   bool updateShouldNotify(FrogColor old) => color != old.color;
+}
+
+class AsInheritedModel extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final NumberModel model =
+        NumberModel.of(context, aspect: NUMBER_TYPE.FIRST);
+    return Text(
+        "Values: ${model.firstValue}, ${model.secondValue}, ${model.thirdValue}");
+  }
+}
+
+class AsInheritedWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final NumberModel model = NumberModel.of(context);
+    return Text(
+        "Values: ${model.firstValue}, ${model.secondValue}, ${model.thirdValue}");
+  }
 }

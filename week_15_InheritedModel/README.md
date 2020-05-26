@@ -4,13 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+**Week #15 - InheritedWidget/InheritedModel**
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Official Youtube Tutorial: https://youtu.be/ml5uefGgkaA
+- Official Doc: https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html
+  - Other Tutorial: https://medium.com/@mehmetf_71205/inheriting-widgets-b7ac56dbbeb1
+- Official Doc: https://api.flutter.dev/flutter/widgets/InheritedModel-class.html
+  - Other Tutorial: https://flutter.institute/sharing-data-inheritedmodel-vs-inheritedwidget/

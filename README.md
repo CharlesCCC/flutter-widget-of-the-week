@@ -83,3 +83,8 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Official Youtube Tutorial: https://youtu.be/ml5uefGgkaA
 - Official Doc: https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html
 - Official Doc: https://api.flutter.dev/flutter/widgets/InheritedModel-class.html
+
+**Week #16 - ClipRect**
+
+- Official Youtube Tutorial: https://youtu.be/eI43jkQkrvs
+- Official Doc: https://api.flutter.dev/flutter/widgets/ClipRect-class.html

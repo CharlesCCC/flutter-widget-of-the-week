@@ -88,3 +88,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 
 - Official Youtube Tutorial: https://youtu.be/eI43jkQkrvs
 - Official Doc: https://api.flutter.dev/flutter/widgets/ClipRect-class.html
+
+**Week #17 - Hero**
+
+- Official Youtube Tutorial: https://youtu.be/Be9UH1kXFDw
+- Official Doc: https://api.flutter.dev/flutter/widgets/Hero-class.html
+- Official Doc: https://flutter.dev/docs/development/ui/animations/hero-animations

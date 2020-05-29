@@ -94,3 +94,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Official Youtube Tutorial: https://youtu.be/Be9UH1kXFDw
 - Official Doc: https://api.flutter.dev/flutter/widgets/Hero-class.html
 - Official Doc: https://flutter.dev/docs/development/ui/animations/hero-animations
+
+**Week #18 - CustomPaint(er)**
+
+- Official Youtube Tutorial: https://youtu.be/kp14Y4uHpHs
+- Official Doc: https://api.flutter.dev/flutter/widgets/CustomPaint-class.html
+- Official Doc: https://api.flutter.dev/flutter/rendering/CustomPainter-class.html

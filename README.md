@@ -100,3 +100,8 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Official Youtube Tutorial: https://youtu.be/kp14Y4uHpHs
 - Official Doc: https://api.flutter.dev/flutter/widgets/CustomPaint-class.html
 - Official Doc: https://api.flutter.dev/flutter/rendering/CustomPainter-class.html
+
+**Week #19 - Tooltip**
+
+- Official Youtube Tutorial: https://youtu.be/EeEfD5fI-5Q
+- Official Doc: https://api.flutter.dev/flutter/material/Tooltip-class.html

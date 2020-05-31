@@ -105,3 +105,8 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 
 - Official Youtube Tutorial: https://youtu.be/EeEfD5fI-5Q
 - Official Doc: https://api.flutter.dev/flutter/material/Tooltip-class.html
+
+**Week #20 - FittedBox**
+
+- Official Youtube Tutorial: https://youtu.be/T4Uehk3_wlY
+- Official Doc: https://api.flutter.dev/flutter/widgets/FittedBox-class.html

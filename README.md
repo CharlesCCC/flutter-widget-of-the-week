@@ -110,3 +110,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 
 - Official Youtube Tutorial: https://youtu.be/T4Uehk3_wlY
 - Official Doc: https://api.flutter.dev/flutter/widgets/FittedBox-class.html
+
+**Week #21 - LayoutBuilder**
+
+- Official Youtube Tutorial: https://youtu.be/IYDVcriKjsw
+- Official Doc: https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html
+

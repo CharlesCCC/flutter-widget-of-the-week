@@ -127,3 +127,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - A widget that applies a transformation before painting its child.
 - Official Youtube Tutorial: https://youtu.be/9z_YNlRlWfA
 - Official Doc: https://api.flutter.dev/flutter/widgets/Transform-class.html
+
+**Week #24 - BackdropFilter**
+
+- A widget that applies a filter to the existing painted content and then paints child. 
+- Official Youtube Tutorial: https://youtu.be/dYRs7Q1vfYI
+- Official Doc: https://api.flutter.dev/flutter/widgets/BackdropFilter-class.html

@@ -145,3 +145,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Use the Positioned widget to position Flutter widgets in a Stack.
 - Official Youtube Tutorial: https://youtu.be/EgtPleVwxBQ
 - Official Doc: https://api.flutter.dev/flutter/widgets/Positioned-class.html
+
+**Week #27 - AnimatedBuilder**
+
+- AnimatedBuilder is useful for more complex widgets that wish to include an animation as part of a larger build function.
+- Official Youtube Tutorial: https://youtu.be/N-RiyZlv8v8 
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedBuilder-class.html

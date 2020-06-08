@@ -151,3 +151,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - AnimatedBuilder is useful for more complex widgets that wish to include an animation as part of a larger build function.
 - Official Youtube Tutorial: https://youtu.be/N-RiyZlv8v8 
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedBuilder-class.html
+
+**Week #28 - Dismissible**
+
+- The Dismissible widget can be used to clear list items by swiping left or right.
+- Official Youtube Tutorial: https://youtu.be/iEMgjrfuc58 
+- Official Doc: https://api.flutter.dev/flutter/widgets/Dismissible-class.html

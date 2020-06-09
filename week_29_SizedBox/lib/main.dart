@@ -49,6 +49,20 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'You have pushed the button this many times:',
             ),
+            SizedBox(
+              height: 100,
+              width: double.infinity,
+              child: Container(
+                color: Colors.amber,
+                child: Text('Here is the sized Box'),
+              ),
+            ),
+            Expanded(
+              child: Container(
+                color: Colors.red,
+                child: Text('Here is the Expanded'),
+              ),
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,

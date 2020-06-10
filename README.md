@@ -157,3 +157,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - The Dismissible widget can be used to clear list items by swiping left or right.
 - Official Youtube Tutorial: https://youtu.be/iEMgjrfuc58 
 - Official Doc: https://api.flutter.dev/flutter/widgets/Dismissible-class.html
+
+**Week #29 - SizedBox**
+
+- Set the exact size of anything with the SizedBox widget.
+- Official Youtube Tutorial: https://youtu.be/EHPu_DzRfqA 
+- Official Doc: https://api.flutter.dev/flutter/widgets/SizedBox-class.html

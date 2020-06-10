@@ -163,3 +163,10 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Set the exact size of anything with the SizedBox widget.
 - Official Youtube Tutorial: https://youtu.be/EHPu_DzRfqA 
 - Official Doc: https://api.flutter.dev/flutter/widgets/SizedBox-class.html
+
+**Week #30 - ValueListenableBuilder**
+
+- Use ValueListenableBuilder to update your UI whenever the data changes.
+- Official Youtube Tutorial: https://youtu.be/s-ZG-jS5QHQ
+- Official Doc: https://api.flutter.dev/flutter/widgets/ValueListenableBuilder-class.html
+

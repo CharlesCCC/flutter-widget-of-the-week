@@ -170,3 +170,8 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Official Youtube Tutorial: https://youtu.be/s-ZG-jS5QHQ
 - Official Doc: https://api.flutter.dev/flutter/widgets/ValueListenableBuilder-class.html
 
+**Week #31 - Draggable**
+
+- Use Draggable to move and drag your widgets around.
+- Official Youtube Tutorial: https://youtu.be/QzA4c4QHZCY
+- Official Doc: https://api.flutter.dev/flutter/widgets/Draggable-class.html

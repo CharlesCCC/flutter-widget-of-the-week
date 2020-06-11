@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo ValueListenableBuilder',
+      title: 'Flutter Demo Draggable',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo ValueListenableBuilder Page'),
+      home: MyHomePage(title: 'Flutter Demo Draggable Page'),
     );
   }
 }
@@ -28,14 +28,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  ValueNotifier<int> _counter = ValueNotifier<int>(0);
-  final Widget goodJob = const Text('You did it !!!');
+  int _counter = 0;
 
   void _incrementCounter() {
     setState(() {
-      _counter.value++; //notice here is .value 
+      _counter++;
     });
-    
   }
 
   @override
@@ -49,27 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
-            ),
-            ValueListenableBuilder(
-              builder: (ctx, value, child) {
-                return Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Text(
-                      '$value',
-                      style: Theme.of(context).textTheme.headline4,
-                    ),
-                    child,
-                  ],
-                );
-              },
-              valueListenable: _counter,
-              child: goodJob,
-            ),
-            Text(
-              '$_counter',
-              //style: Theme.of(context).textTheme.headline4,
+              'Dragglable Demo Is here ',
             ),
           ],
         ),

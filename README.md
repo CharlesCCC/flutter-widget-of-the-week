@@ -7,6 +7,8 @@ Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23X
 
 Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets 
 
+Flutter Cookboo: https://flutter.dev/docs/cookbook 
+
 **Week #1 - SafeArea**
 
 - Official Youtube Tutorial: https://youtu.be/lkF0TQJO0bA
@@ -175,3 +177,9 @@ Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets
 - Use Draggable to move and drag your widgets around.
 - Official Youtube Tutorial: https://youtu.be/QzA4c4QHZCY
 - Official Doc: https://api.flutter.dev/flutter/widgets/Draggable-class.html
+
+**Week #32 - AnimatedList**
+
+- Use AnimatedList to make your lists more dynamic. You can use it to animate your lists when inserting or removing items.
+- Official Youtube Tutorial: https://youtu.be/ZtfItHwFlZ8
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedList-class.html

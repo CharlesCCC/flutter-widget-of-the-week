@@ -36,7 +36,26 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[],
+        children: <Widget>[
+          Flexible(
+            flex: 1,
+            child: Container(
+              color: Colors.red,
+            ),
+          ),
+          Flexible(
+            flex: 2,
+            child: Container(
+              color: Colors.green,
+            ),
+          ),
+          Flexible(
+            flex: 3,
+            child: Container(
+              color: Colors.blue,
+            ),
+          ),
+        ],
       ),
     );
   }

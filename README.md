@@ -183,3 +183,9 @@ Flutter Cookboo: https://flutter.dev/docs/cookbook
 - Use AnimatedList to make your lists more dynamic. You can use it to animate your lists when inserting or removing items.
 - Official Youtube Tutorial: https://youtu.be/ZtfItHwFlZ8
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedList-class.html
+
+**Week #33 - Flexible**
+
+- Use Flexible for resizing your widgets in rows and columns.
+- Official Youtube Tutorial: https://youtu.be/CI7x0mAZiY0
+- Official Doc: https://api.flutter.dev/flutter/widgets/Flexible-class.html

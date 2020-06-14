@@ -189,3 +189,9 @@ Flutter Cookboo: https://flutter.dev/docs/cookbook
 - Use Flexible for resizing your widgets in rows and columns.
 - Official Youtube Tutorial: https://youtu.be/CI7x0mAZiY0
 - Official Doc: https://api.flutter.dev/flutter/widgets/Flexible-class.html
+
+**Week #34 - MediaQuery**
+
+- Use MediaQuery to adjust your app’s UI layout based on different screen sizes.
+- Official Youtube Tutorial: https://youtu.be/A3WrA4zAaPw
+- Official Doc: https://api.flutter.dev/flutter/widgets/MediaQuery-class.html

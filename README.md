@@ -195,3 +195,9 @@ Flutter Cookboo: https://flutter.dev/docs/cookbook
 - Use MediaQuery to adjust your app’s UI layout based on different screen sizes.
 - Official Youtube Tutorial: https://youtu.be/A3WrA4zAaPw
 - Official Doc: https://api.flutter.dev/flutter/widgets/MediaQuery-class.html
+
+**Week #35 - Spacer**
+
+- The Spacer widget can help you control how much space appears between widgets in a Row or Column.
+- Official Youtube Tutorial: https://youtu.be/7FJgd7QN1zI
+- Official Doc: https://api.flutter.dev/flutter/widgets/Spacer-class.html

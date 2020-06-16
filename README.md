@@ -201,3 +201,9 @@ Flutter Cookboo: https://flutter.dev/docs/cookbook
 - The Spacer widget can help you control how much space appears between widgets in a Row or Column.
 - Official Youtube Tutorial: https://youtu.be/7FJgd7QN1zI
 - Official Doc: https://api.flutter.dev/flutter/widgets/Spacer-class.html
+
+**Week #36 - InheritedWidget**
+
+- The InheritedWidget allows your child widgets to access data from the parent widget. Use it to save yourself the trouble of having to pass data around between widgets.
+- Official Youtube Tutorial: https://youtu.be/1t-8rBCGBYw
+- Official Doc: https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html

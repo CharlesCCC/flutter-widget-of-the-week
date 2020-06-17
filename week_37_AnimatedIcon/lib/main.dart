@@ -27,13 +27,25 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage>
+    with SingleTickerProviderStateMixin {
   int _counter = 0;
+  AnimationController _controller;
 
   void _incrementCounter() {
     setState(() {
       _counter++;
+      _counter % 2 == 1 ? _controller.forward() : _controller.reverse();
     });
+  }
+
+  @override
+  void initState() {
+    _controller = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 1),
+    );
+    super.initState();
   }
 
   @override
@@ -47,12 +59,17 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'Pushed the button to see animation -- odd pause, Even play',
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            AnimatedIcon(
+              icon: AnimatedIcons.play_pause,
+              size: 250.0,
+              progress: _controller,
+            )
           ],
         ),
       ),

@@ -207,3 +207,9 @@ Flutter Cookboo: https://flutter.dev/docs/cookbook
 - The InheritedWidget allows your child widgets to access data from the parent widget. Use it to save yourself the trouble of having to pass data around between widgets.
 - Official Youtube Tutorial: https://youtu.be/1t-8rBCGBYw
 - Official Doc: https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html
+
+**Week #37 - AnimatedIcon**
+
+- Use the AnimatedIcon widget to drop an animated icon straight into your app. Flutter also has a great set of inanimate icons to choose from.
+- Official Youtube Tutorial: https://youtu.be/pJcbh8pbvJs
+- Official Doc: https://api.flutter.dev/flutter/material/AnimatedIcon-class.html

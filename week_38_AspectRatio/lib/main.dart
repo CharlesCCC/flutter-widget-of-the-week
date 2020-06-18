@@ -47,12 +47,16 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              '3/2 Ratio',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            AspectRatio(
+              aspectRatio: 3 / 2,
+              child: Container(
+                color: Colors.red,
+                width: 5,
+                height: 5,
+              ),
+            )
           ],
         ),
       ),

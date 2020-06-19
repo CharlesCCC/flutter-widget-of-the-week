@@ -45,7 +45,11 @@ class _MyHomePageState extends State<MyHomePage> {
               maxHeight: 100,
               child: Container(
                 color: Color.fromARGB(
-                    rng.nextInt(250), rng.nextInt(250), rng.nextInt(250), rng.nextInt(250)),
+                  rng.nextInt(250),
+                  rng.nextInt(250),
+                  rng.nextInt(250),
+                  rng.nextInt(250),
+                ),
               ),
             ),
         ],

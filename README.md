@@ -3,11 +3,13 @@ Practice Flutter Widget
 
 **Telegram Discussion group**: http://t.me/csflutter 
 
-Official YouTube Playlist: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+**Official YouTube Playlist**: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 
-Flutter Widget Catalog: https://flutter.dev/docs/development/ui/widgets 
+**Flutter Widget Catalog**: https://flutter.dev/docs/development/ui/widgets 
 
-Flutter Cookboo: https://flutter.dev/docs/cookbook 
+**Flutter Cookbook**: https://flutter.dev/docs/cookbook 
+
+
 
 **Week #1 - SafeArea**
 

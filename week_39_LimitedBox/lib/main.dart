@@ -38,7 +38,18 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: ListView(
+        children: <Widget>[
+          for (var i = 0; i < 10; i++)
+            LimitedBox(
+              maxHeight: 100,
+              child: Container(
+                color: Color.fromARGB(
+                    rng.nextInt(250), rng.nextInt(250), rng.nextInt(250), rng.nextInt(250)),
+              ),
+            ),
+        ],
+      ),
     );
   }
 }

@@ -220,3 +220,8 @@ Flutter Cookboo: https://flutter.dev/docs/cookbook
 - Official Youtube Tutorial: https://youtu.be/XcnP3_mO_Ms
 - Official Doc: https://api.flutter.dev/flutter/widgets/AspectRatio-class.html
 
+**Week #39 - LimitedBox**
+
+- The LimitedBox widget provides size constraints to widgets in cases where their dimensions are unbounded.
+- Official Youtube Tutorial: https://youtu.be/uVki2CIzBTs
+- Official Doc: https://api.flutter.dev/flutter/widgets/LimitedBox-class.html

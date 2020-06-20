@@ -47,11 +47,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'the following is your place holder',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+            Placeholder(
+              fallbackHeight: 100,
+              fallbackWidth: 100,
+              color: Colors.amber,
             ),
           ],
         ),

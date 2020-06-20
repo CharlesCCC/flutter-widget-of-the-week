@@ -227,3 +227,9 @@ Practice Flutter Widget
 - The LimitedBox widget provides size constraints to widgets in cases where their dimensions are unbounded.
 - Official Youtube Tutorial: https://youtu.be/uVki2CIzBTs
 - Official Doc: https://api.flutter.dev/flutter/widgets/LimitedBox-class.html
+
+**Week #40 - Placeholder**
+
+- Need something to stand in for a widget you're not finished composing? Placeholder is here to help. It's a simple widget that draws an X where your widget will ultimately go!
+- Official Youtube Tutorial: https://youtu.be/LPe56fezmoo
+- Official Doc: https://api.flutter.dev/flutter/widgets/Placeholder-class.html

@@ -43,17 +43,21 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
+        child: RichText(
+          text: TextSpan(
+            text: 'Hello RichText ',
+            style: TextStyle(color: Colors.amber, fontSize: 14),
+            children: <TextSpan>[
+              TextSpan(
+                text: 'bold',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 43,
+                ),
+              ),
+              TextSpan(text: ' world!'),
+            ],
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(

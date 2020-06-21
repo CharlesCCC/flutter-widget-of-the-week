@@ -233,3 +233,9 @@ Practice Flutter Widget
 - Need something to stand in for a widget you're not finished composing? Placeholder is here to help. It's a simple widget that draws an X where your widget will ultimately go!
 - Official Youtube Tutorial: https://youtu.be/LPe56fezmoo
 - Official Doc: https://api.flutter.dev/flutter/widgets/Placeholder-class.html
+
+**Week #41 - RichText**
+
+- The RichText widget allows you to style your text. Whether you want to emphasize one word in bold and display another in a different color or font, RichText can help!
+- Official Youtube Tutorial: https://youtu.be/rykDVh-QFfw
+- Official Doc: https://api.flutter.dev/flutter/widgets/RichText-class.html

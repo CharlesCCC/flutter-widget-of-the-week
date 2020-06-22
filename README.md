@@ -240,3 +240,8 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/rykDVh-QFfw
 - Official Doc: https://api.flutter.dev/flutter/widgets/RichText-class.html
 
+**Week #42 - ReorderableListView**
+
+- The ReorderableListView widget presents a list of items that users can reorder just by dragging things where they want them to go.
+- Official Youtube Tutorial: https://youtu.be/3fB1mxOsqJE
+- Official Doc: https://api.flutter.dev/flutter/material/ReorderableListView-class.html

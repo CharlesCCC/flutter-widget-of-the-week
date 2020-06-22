@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,10 +31,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  List<int> _items = [100, 200, 300];
+  final random = Random(250);
 
   void _incrementCounter() {
     setState(() {
       _counter++;
+      _items.add(_counter);
     });
   }
 
@@ -42,10 +47,33 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: ReorderableListView(
+        children: [
+          for (final item in _items)
+            Container(
+              key: UniqueKey(),
+              color: Color.fromARGB(
+                random.nextInt(250),
+                random.nextInt(250),
+                random.nextInt(250),
+                random.nextInt(250),
+              ),
+              child: ListTile(
+                title: Text('Item: #$item'),
+              ),
+            ),
+        ],
+        onReorder: (oldIndex, newIndex) {
+          setState(() {
+            int temp = _items[oldIndex];
+            _items[oldIndex] = _items[newIndex];
+            _items[newIndex] = temp;
+          });
+        },
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Add more item',
         child: Icon(Icons.add),
       ),
     );

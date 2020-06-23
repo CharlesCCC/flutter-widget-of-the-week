@@ -4,13 +4,34 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- The AnimatedSwitcher widget allows you to switch between two or more widgets with an animation as you transition.
+- Official Youtube Tutorial: https://youtu.be/2W7POjFb88g
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedSwitcher-class.html
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'You have pushed the button this many times:',
+            ),
+            AnimatedSwitcher(
+              duration: const Duration(milliseconds: 500),
+              transitionBuilder: (Widget child, Animation<double> animation) {
+                return ScaleTransition(
+                  scale: animation,
+                  child: child,
+                );
+              },
+              child: Text(
+                '$_counter',
+                key: ValueKey<int>(_counter),
+                style: Theme.of(context).textTheme.headline4,
+              ),
+            ),
+          ],
+        ),
+      ),
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

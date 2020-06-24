@@ -251,3 +251,9 @@ Practice Flutter Widget
 - The AnimatedSwitcher widget allows you to switch between two or more widgets with an animation as you transition.
 - Official Youtube Tutorial: https://youtu.be/2W7POjFb88g
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedSwitcher-class.html
+
+**Week #44 - AnimatedPositioned**
+
+- AnimatedPositioned automatically transitions the child's position over a given duration whenever the given position changes. Directional properties are implemented, allowing your widget to grow and shrink as part of the animation! (Note: Only works if it's the child of a [Stack](https://api.flutter.dev/flutter/widgets/Stack-class.html). )
+- Official Youtube Tutorial: https://youtu.be/hC3s2YdtWt8
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedPositioned-class.html

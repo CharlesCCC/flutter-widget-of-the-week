@@ -28,11 +28,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  bool showMessage = false;
 
-  void _incrementCounter() {
+  void _toggle() {
     setState(() {
-      _counter++;
+      showMessage = !showMessage;
     });
   }
 
@@ -43,23 +43,33 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: Stack(
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
+            Positioned(
+              bottom: 400,
+              right: 80,
+              child: Text(
+                'Peek-A-Boo',
+              ),
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            AnimatedPositioned(
+              child: Container(
+                width: 300,
+                height: 100,
+                color: Colors.blue,
+                child: Text('Toggle the Floading action to see the secret'),
+              ),
+              duration: Duration(milliseconds: 500),
+              bottom: showMessage ? 450 : 400,
+              right: 80,
+            )
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
+        onPressed: _toggle,
+        tooltip: 'Toggle',
+        child: Icon(Icons.switch_camera),
       ),
     );
   }

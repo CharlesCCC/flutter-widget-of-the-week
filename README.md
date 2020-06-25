@@ -257,3 +257,9 @@ Practice Flutter Widget
 - AnimatedPositioned automatically transitions the child's position over a given duration whenever the given position changes. Directional properties are implemented, allowing your widget to grow and shrink as part of the animation! (Note: Only works if it's the child of a [Stack](https://api.flutter.dev/flutter/widgets/Stack-class.html). )
 - Official Youtube Tutorial: https://youtu.be/hC3s2YdtWt8
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedPositioned-class.html
+
+**Week #45 - AnimatedPadding**
+
+- AnimatedPadding is a great way to provide smooth buffers and spaces between widgets and screen borders. Use this to dynamically change the padding of the widget and have it animate between the two values.
+- Official Youtube Tutorial: https://youtu.be/PY2m0fhGNz4
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedPadding-class.html

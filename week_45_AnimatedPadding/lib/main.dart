@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Demo AnimatedPadding',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Demo AnimatedPadding Page'),
     );
   }
 }
@@ -28,11 +28,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  double _counter = 0.0;
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+      _counter = _counter + 10;
     });
   }
 
@@ -47,11 +47,22 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'Push the floating action to increase padding by 10 :',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+            AnimatedPadding(
+              padding: EdgeInsets.all(_counter),
+              duration: const Duration(microseconds: 350),
+              curve: Curves.easeInOut,
+              child: Container(
+                color: Colors.blue,
+                height: 50,
+                child: Center(
+                  child: Text(
+                    '$_counter',
+                    style: Theme.of(context).textTheme.headline4,
+                  ),
+                ),
+              ),
             ),
           ],
         ),

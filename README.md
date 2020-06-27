@@ -270,3 +270,8 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/_O0PPD1Xfbk
 - Official Doc: https://api.flutter.dev/flutter/widgets/IndexedStack-class.html
 
+**Week #47 - Semantics**
+
+- Flutter's Semantics widget can annotate an app's UI with information about the meaning of other widgets. It has almost fifty properties you can use to provide descriptions, metadata and more to screen readers and other semantic analysis-based tools.
+- Official Youtube Tutorial: https://youtu.be/NvtMt_DtFrQ
+- Official Doc: https://api.flutter.dev/flutter/widgets/Semantics-class.html

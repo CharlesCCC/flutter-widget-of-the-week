@@ -4,13 +4,26 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Flutter's Semantics widget can annotate an app's UI with information about the meaning of other widgets. It has almost fifty properties you can use to provide descriptions, metadata and more to screen readers and other semantic analysis-based tools.
+- Official Youtube Tutorial: https://youtu.be/NvtMt_DtFrQ
+- Official Doc: https://api.flutter.dev/flutter/widgets/Semantics-class.html
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+ child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'You have pushed the button this many times:',
+            ),
+            Semantics(
+              label: 'Counter Text',
+              hint: 'Counter Text',
+              child: Text(
+                '$_counter',
+                style: Theme.of(context).textTheme.headline4,
+              ),
+            ),
+          ],
+        ),
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

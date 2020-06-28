@@ -28,7 +28,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,6 +40,15 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'This is a nomrla Text without any constraint ',
+            ),
+            SizedBox(
+              height: 25,
+            ),
+            ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: 55),
+              child: Text(
+                'This is a nomrla Text with 55 width constraint ',
+              ),
             ),
           ],
         ),

@@ -4,13 +4,29 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Flutter's ConstrainedBox widget is great to add requirements for a widget's sizing behavior. Wrapping widgets in a ConstrainedBox lets you specify their min and max width and heights. 
+- Official Youtube Tutorial: https://youtu.be/o2KveVr7adg
+- Official Doc: https://api.flutter.dev/flutter/widgets/ConstrainedBox-class.html
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'This is a nomrla Text without any constraint ',
+            ),
+            SizedBox(
+              height: 25,
+            ),
+            ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: 55),
+              child: Text(
+                'This is a nomrla Text with 55 width constraint ',
+              ),
+            ),
+          ],
+        ),
+      ),
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

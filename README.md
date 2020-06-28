@@ -275,3 +275,9 @@ Practice Flutter Widget
 - Flutter's Semantics widget can annotate an app's UI with information about the meaning of other widgets. It has almost fifty properties you can use to provide descriptions, metadata and more to screen readers and other semantic analysis-based tools.
 - Official Youtube Tutorial: https://youtu.be/NvtMt_DtFrQ
 - Official Doc: https://api.flutter.dev/flutter/widgets/Semantics-class.html
+
+**Week #48 - ConstrainedBox**
+
+- Flutter's ConstrainedBox widget is great to add requirements for a widget's sizing behavior. Wrapping widgets in a ConstrainedBox lets you specify their min and max width and heights. 
+- Official Youtube Tutorial: https://youtu.be/o2KveVr7adg
+- Official Doc: https://api.flutter.dev/flutter/widgets/ConstrainedBox-class.html

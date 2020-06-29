@@ -281,3 +281,9 @@ Practice Flutter Widget
 - Flutter's ConstrainedBox widget is great to add requirements for a widget's sizing behavior. Wrapping widgets in a ConstrainedBox lets you specify their min and max width and heights. 
 - Official Youtube Tutorial: https://youtu.be/o2KveVr7adg
 - Official Doc: https://api.flutter.dev/flutter/widgets/ConstrainedBox-class.html
+
+**Week #49 - Stack**
+
+- If you've ever wanted overlapping elements, then Stack is the widget for you! Stack allows you to overlay multiple widgets on top of each other. For example, you can use a Stack to add text over an image.
+- Official Youtube Tutorial: https://youtu.be/liEGSeD3Zt8
+- Official Doc: https://api.flutter.dev/flutter/widgets/Stack-class.html

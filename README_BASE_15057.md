@@ -3,15 +3,11 @@ Practice Flutter Widget
 
 **Telegram Discussion group**: http://t.me/csflutter 
 
-**GitHub Project Page**: https://github.com/users/CharlesCCC/projects/1
-
 **Official YouTube Playlist**: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 
 **Flutter Widget Catalog**: https://flutter.dev/docs/development/ui/widgets 
 
 **Flutter Cookbook**: https://flutter.dev/docs/cookbook 
-
-
 
 
 
@@ -291,12 +287,3 @@ Practice Flutter Widget
 - If you've ever wanted overlapping elements, then Stack is the widget for you! Stack allows you to overlay multiple widgets on top of each other. For example, you can use a Stack to add text over an image.
 - Official Youtube Tutorial: https://youtu.be/liEGSeD3Zt8
 - Official Doc: https://api.flutter.dev/flutter/widgets/Stack-class.html
-<<<<<<< HEAD
-
-**Week #50 - AnimatedOpacity**
-
-- AnimatedOpacity can help by fading a widget into view or by making it less prominent when something is not selected.
-- Official Youtube Tutorial: https://youtu.be/QZAvjqOqiLY
-- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html
-=======
->>>>>>> 5f978205f985216978a3417a288c86f3de2ce647

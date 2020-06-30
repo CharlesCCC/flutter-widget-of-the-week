@@ -287,3 +287,9 @@ Practice Flutter Widget
 - If you've ever wanted overlapping elements, then Stack is the widget for you! Stack allows you to overlay multiple widgets on top of each other. For example, you can use a Stack to add text over an image.
 - Official Youtube Tutorial: https://youtu.be/liEGSeD3Zt8
 - Official Doc: https://api.flutter.dev/flutter/widgets/Stack-class.html
+
+**Week #50 - AnimatedOpacity**
+
+- AnimatedOpacity can help by fading a widget into view or by making it less prominent when something is not selected.
+- Official Youtube Tutorial: https://youtu.be/QZAvjqOqiLY
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html

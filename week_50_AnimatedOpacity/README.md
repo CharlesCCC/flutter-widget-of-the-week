@@ -8,3 +8,13 @@ A new Flutter project.
 - Official Youtube Tutorial: https://youtu.be/QZAvjqOqiLY
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html
 
+```dart
+ AnimatedOpacity(
+              duration: Duration(milliseconds: 350),
+              opacity: _opacity,
+              child: Text(
+                'You have pushed the button this many times: (push to see animation) ',
+              ),
+            ),
+```
+

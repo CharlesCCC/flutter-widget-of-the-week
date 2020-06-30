@@ -29,10 +29,12 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  double _opacity = 1.0;
 
   void _incrementCounter() {
     setState(() {
       _counter++;
+      _counter % 2 == 0 ? _opacity = 1 : _opacity = 0;
     });
   }
 
@@ -46,8 +48,12 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
+            AnimatedOpacity(
+              duration: Duration(milliseconds: 350),
+              opacity: _opacity,
+              child: Text(
+                'You have pushed the button this many times: (push to see animation) ',
+              ),
             ),
             Text(
               '$_counter',

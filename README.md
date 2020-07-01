@@ -297,3 +297,9 @@ Practice Flutter Widget
 - AnimatedOpacity can help by fading a widget into view or by making it less prominent when something is not selected.
 - Official Youtube Tutorial: https://youtu.be/QZAvjqOqiLY
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html
+
+**Week #51 - FractionallySizedBox**
+
+- FractionallySizedBox allows you to size the child to a fraction of the total available space. 
+- Official Youtube Tutorial: https://youtu.be/PEsY654EGZ0
+- Official Doc: https://api.flutter.dev/flutter/widgets/FractionallySizedBox-class.html

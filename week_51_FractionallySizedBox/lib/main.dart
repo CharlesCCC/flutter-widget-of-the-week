@@ -39,7 +39,25 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'SizedBox Below:',
+            ),
+            SizedBox(
+              height: 50,
+              child: Container(
+                color: Colors.red,
+              ),
+            ),
+            Text(
+              'FractionallySizedBox Below 70% :',
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                heightFactor: 0.1,
+                widthFactor: 0.7,
+                child: Container(
+                  color: Colors.blue,
+                ),
+              ),
             ),
           ],
         ),

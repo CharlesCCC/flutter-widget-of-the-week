@@ -303,3 +303,9 @@ Practice Flutter Widget
 - FractionallySizedBox allows you to size the child to a fraction of the total available space. 
 - Official Youtube Tutorial: https://youtu.be/PEsY654EGZ0
 - Official Doc: https://api.flutter.dev/flutter/widgets/FractionallySizedBox-class.html
+
+**Week #52 - ListView**
+
+- ListView is as simple as supplying a list of items and can be easily customized to your liking.
+- Official Youtube Tutorial: https://youtu.be/KJpkjHGiI5A
+- Official Doc: https://api.flutter.dev/flutter/widgets/ListView-class.html

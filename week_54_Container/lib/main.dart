@@ -46,12 +46,34 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
+            Container(
+              margin: const EdgeInsets.all(10.0),
+              color: Colors.amber[600],
+              width: 88.0,
+              height: 88.0,
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+            Container(
+              constraints: BoxConstraints.expand(
+                height: Theme.of(context).textTheme.headline4.fontSize * 1.1 +
+                    100.0,
+              ),
+              padding: const EdgeInsets.all(8.0),
+              color: Colors.blue[600],
+              alignment: Alignment.center,
+              child: Text(
+                'Hello World',
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4
+                    .copyWith(color: Colors.white),
+              ),
+              transform: Matrix4.rotationZ(0.2),
+            ),
+            Container(
+              margin: const EdgeInsets.all(10.0),
+              color: Colors.red[600],
+              width: 88.0,
+              height: 88.0,
             ),
           ],
         ),

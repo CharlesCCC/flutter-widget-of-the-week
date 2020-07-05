@@ -28,14 +28,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,20 +38,24 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+            SelectableText(
+              'You can select the text here ',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 35,
+              ),
+              showCursor: true,
+              toolbarOptions: ToolbarOptions(
+                copy: true,
+                cut: true,
+                selectAll: true,
+              ),
+              cursorWidth: 10,
+              cursorColor: Colors.amber,
+              cursorRadius: Radius.circular(10),
             ),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
       ),
     );
   }

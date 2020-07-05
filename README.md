@@ -322,3 +322,8 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/c1xLMaTUWCY
 - Official Doc: https://api.flutter.dev/flutter/widgets/Container-class.html
 
+**Week #55 - SelectableText**
+
+- Have you ever wanted to make some display text in your app selectable? SelectableText is the widget for you!
+- Official Youtube Tutorial: https://youtu.be/ZSU3ZXOs6hc
+- Official Doc: https://master-api.flutter.dev/flutter/material/SelectableText-class.html

@@ -327,3 +327,9 @@ Practice Flutter Widget
 - Have you ever wanted to make some display text in your app selectable? SelectableText is the widget for you!
 - Official Youtube Tutorial: https://youtu.be/ZSU3ZXOs6hc
 - Official Doc: https://master-api.flutter.dev/flutter/material/SelectableText-class.html
+
+**Week #56 - DataTable**
+
+- Do you have some important data to show to the user in a table? Define your columns, rows, and automatically size cells with DataTable!
+- Official Youtube Tutorial: https://youtu.be/ktTajqbhIcY
+- Official Doc: https://api.flutter.dev/flutter/material/DataTable-class.html

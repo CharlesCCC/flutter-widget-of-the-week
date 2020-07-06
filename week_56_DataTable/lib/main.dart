@@ -34,7 +34,56 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: DataTable(
+          sortColumnIndex: 1,
+          sortAscending: true,
+          columns: <DataColumn>[
+            DataColumn(
+              label: Text(
+                'Name',
+                style: TextStyle(fontStyle: FontStyle.italic),
+              ),
+            ),
+            DataColumn(
+              label: Text(
+                'Age',
+                style: TextStyle(fontStyle: FontStyle.italic),
+              ),
+              numeric: true,
+            ),
+            DataColumn(
+              label: Text(
+                'Role',
+                style: TextStyle(fontStyle: FontStyle.italic),
+              ),
+            ),
+          ],
+          rows: <DataRow>[
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('Sarah')),
+                DataCell(Text('19')),
+                DataCell(Text('Student')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('Janine')),
+                DataCell(Text('43')),
+                DataCell(Text('Professor')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('William')),
+                DataCell(Text('27')),
+                DataCell(Text('Associate Professor')),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

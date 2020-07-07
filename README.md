@@ -333,3 +333,12 @@ Practice Flutter Widget
 - Do you have some important data to show to the user in a table? Define your columns, rows, and automatically size cells with DataTable!
 - Official Youtube Tutorial: https://youtu.be/ktTajqbhIcY
 - Official Doc: https://api.flutter.dev/flutter/material/DataTable-class.html
+
+**Week #57 - Slider**
+
+- Need a quick way to select from a range of values? The Slider widget selects a single value from a range. 
+- Official Youtube Tutorial: https://youtu.be/ufb4gIPDmEs
+- Official Doc: https://api.flutter.dev/flutter/material/Slider-class.html
+  - https://api.flutter.dev/flutter/cupertino/CupertinoSlider-class.html
+  - https://api.flutter.dev/flutter/material/RangeSlider-class.html
+

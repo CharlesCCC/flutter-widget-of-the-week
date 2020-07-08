@@ -342,3 +342,8 @@ Practice Flutter Widget
   - https://api.flutter.dev/flutter/cupertino/CupertinoSlider-class.html
   - https://api.flutter.dev/flutter/material/RangeSlider-class.html
 
+**Week #58 - AlertDialog**
+
+- Do you want to alert someone about something or maybe get their input? Does your app have a critical junction where users need to make an important decision? AlertDialog is the widget for you!
+- Official Youtube Tutorial: https://youtu.be/75CsnyRXf5I
+- Official Doc: https://api.flutter.dev/flutter/material/AlertDialog-class.html

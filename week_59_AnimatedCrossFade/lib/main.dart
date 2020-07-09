@@ -28,13 +28,33 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  bool _first = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: AnimatedCrossFade(
+          duration: const Duration(seconds: 1),
+          firstChild: const FlutterLogo(
+              style: FlutterLogoStyle.horizontal, size: 200.0),
+          secondChild:
+              const FlutterLogo(style: FlutterLogoStyle.stacked, size: 200.0),
+          crossFadeState:
+              _first ? CrossFadeState.showFirst : CrossFadeState.showSecond,
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+          child: Text('Toggle'),
+          onPressed: () {
+            setState(() {
+              _first = !_first;
+            });
+          }),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }

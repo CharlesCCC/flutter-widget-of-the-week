@@ -353,3 +353,9 @@ Practice Flutter Widget
 - Cross fade is a cinematic term in which one thing gradually fades into another. Wouldn't it be useful to have something similar, but for Flutter widgets? AnimatedCrossFade to the rescue!
 - Official Youtube Tutorial: https://youtu.be/PGK2UUAyE54
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedCrossFade-class.html
+
+**Week #60 - DraggableScrollableSheet**
+
+- Are you looking to drag a widget onto the screen? Does that widget have scrollable content? DraggableScrollableSheet has you covered!
+- Official Youtube Tutorial: https://youtu.be/Hgw819mL_78
+- Official Doc: https://api.flutter.dev/flutter/widgets/DraggableScrollableSheet-class.html

@@ -4,13 +4,33 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Are you looking to drag a widget onto the screen? Does that widget have scrollable content? DraggableScrollableSheet has you covered!
+- Official Youtube Tutorial: https://youtu.be/Hgw819mL_78
+- Official Doc: https://api.flutter.dev/flutter/widgets/DraggableScrollableSheet-class.html
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: SizedBox.expand(
+        child: DraggableScrollableSheet(
+          builder: (BuildContext context, ScrollController scrollController) {
+            return Container(
+              color: Colors.blue[100],
+              child: ListView.builder(
+                controller: scrollController,
+                itemCount: 25,
+                itemBuilder: (BuildContext context, int index) {
+                  return ListTile(title: Text('Item $index'));
+                },
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

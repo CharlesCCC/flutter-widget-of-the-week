@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             isSelected: isSelected,
           ),
-          Text('ToggleButtons#1: Mutual Exclusive with Null Allowed '),
+          Text('ToggleButtons#3: Mutual Exclusive with Null Allowed '),
           ToggleButtons(
             children: <Widget>[
               Icon(Icons.ac_unit),

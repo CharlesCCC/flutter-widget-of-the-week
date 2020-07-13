@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,13 +8,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo DataTable',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: MyHomePage(title: 'Flutter Demo DataTable Page'),
+    return CupertinoApp(
+      title: 'Flutter Demo CupertinoActionSheet',
+      home: MyHomePage(title: 'Flutter Demo CupertinoActionSheet Page'),
     );
   }
 }
@@ -31,10 +28,28 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
+      body: Center(
+        child: Text('Click the FBA to show the ActionSheet! '),
       ),
-      body: Center(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          showCupertinoModalPopup(
+            context: context,
+            builder: (context) => CupertinoActionSheet(
+              title: Text('Cupertino Action Sheet Test'),
+              message: Text('some test message here '),
+              actions: <Widget>[
+                CupertinoDialogAction(child: Text('Good')),
+                CupertinoDialogAction(child: Text('Bad')),
+              ],
+              cancelButton: CupertinoActionSheetAction(
+                child: Text('Cancel'),
+                onPressed: () {},
+              ),
+            ),
+          );
+        },
+      ),
     );
   }
 }

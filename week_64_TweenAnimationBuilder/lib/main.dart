@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo DataTable',
+      title: 'Flutter Demo TweenAnimationBuilder',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo DataTable Page'),
+      home: MyHomePage(title: 'Flutter Demo TweenAnimationBuilder Page'),
     );
   }
 }
@@ -28,13 +28,33 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  double targetValue = 24.0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: TweenAnimationBuilder(
+          tween: Tween<double>(begin: 0, end: targetValue),
+          duration: Duration(seconds: 1),
+          builder: (context, value, child) {
+            return IconButton(
+              iconSize: value,
+              icon: child,
+              tooltip: 'Click Here',
+              onPressed: () {
+                setState(() {
+                  targetValue = targetValue == 48.0 ? 128.0 : 48.0;
+                });
+              },
+            );
+          },
+          child: Icon(Icons.ac_unit),
+        ),
+      ),
     );
   }
 }

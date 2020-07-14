@@ -378,3 +378,8 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/U-ao8p4A82k
 - Official Doc: https://api.flutter.dev/flutter/cupertino/CupertinoActionSheet-class.html
 
+**Week #64 - TweenAnimationBuilder**
+
+- Do you want a simple animation, but none of the built-in implicit animation widgets do the trick? TweenAnimationBuilder is here for all your custom animation needs without having to worry about that AnimationController! 
+- Official Youtube Tutorial: https://youtu.be/l9uHB8VXZOg
+- Official Doc: https://api.flutter.dev/flutter/widgets/TweenAnimationBuilder-class.html

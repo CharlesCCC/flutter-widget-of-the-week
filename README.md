@@ -383,3 +383,9 @@ Practice Flutter Widget
 - Do you want a simple animation, but none of the built-in implicit animation widgets do the trick? TweenAnimationBuilder is here for all your custom animation needs without having to worry about that AnimationController! 
 - Official Youtube Tutorial: https://youtu.be/l9uHB8VXZOg
 - Official Doc: https://api.flutter.dev/flutter/widgets/TweenAnimationBuilder-class.html
+
+**Week #65 - Image**
+
+- Need your app to display images? Flutter has you covered! Use the Image widget to render an image to the screen, wherever it may come from: assets, network, file system, RAM and more!
+- Official Youtube Tutorial: https://youtu.be/7oIAs-0G4mw
+- Official Doc: https://api.flutter.dev/flutter/widgets/Image-class.html

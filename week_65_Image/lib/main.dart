@@ -36,7 +36,30 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+            Text('Normal Asset Image:'),
+            Image.asset(
+              'asset/img/owl.jpg',
+              height: 150.0,
+              semanticLabel: 'Owl',
+            ),
+            Text('colorBlendMode: BlendMode.darken Asset Image:'),
+            Image.asset(
+              'asset/img/owl.jpg',
+              height: 150.0,
+              colorBlendMode: BlendMode.darken,
+            ),
+            Text('Normal Network Image:'),
+            Image.network(
+              'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
+              height: 150.0,
+              loadingBuilder: (context, child, loadingProgress) {
+                return loadingProgress == null
+                    ? child
+                    : Center(child: CircularProgressIndicator());
+              },
+            ),
+          ],
         ),
       ),
     );

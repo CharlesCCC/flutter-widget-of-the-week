@@ -389,3 +389,11 @@ Practice Flutter Widget
 - Need your app to display images? Flutter has you covered! Use the Image widget to render an image to the screen, wherever it may come from: assets, network, file system, RAM and more!
 - Official Youtube Tutorial: https://youtu.be/7oIAs-0G4mw
 - Official Doc: https://api.flutter.dev/flutter/widgets/Image-class.html
+
+**Week #66 - DefaulTabController**
+
+- Do you need to organize your widgets into tabs? The DefaultTabController, TabBar, and TabBarView widgets are for you.
+- Official Youtube Tutorial: https://youtu.be/POtoEH-5l40
+- Official Doc: 
+  - https://api.flutter.dev/flutter/material/DefaultTabController-class.html
+  - https://api.flutter.dev/flutter/material/TabBar-class.html

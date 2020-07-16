@@ -30,11 +30,26 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: AppBar(
+          bottom: TabBar(
+            tabs: [
+              Tab(text: 'A Tab'),
+              Tab(text: 'B Tab'),
+              Tab(text: 'C Tab'),
+            ],
+          ),
+        ),
+        body: TabBarView(
+          children: [
+            Icon(Icons.ac_unit, size: 125),
+            Icon(Icons.battery_alert, size: 125),
+            Icon(Icons.cake, size: 125),
+          ],
+        ),
       ),
-      body: Center(),
     );
   }
 }

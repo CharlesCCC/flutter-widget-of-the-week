@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo DataTable',
+      title: 'Flutter Demo SnackBar',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo DataTable Page'),
+      home: MyHomePage(title: 'Flutter Demo SnackBar Page'),
     );
   }
 }
@@ -34,7 +34,19 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Builder(
+        builder: (context) {
+          return Center(
+            child: FlatButton(
+              child: Text('Click to Show SnackBar'),
+              onPressed: () {
+                Scaffold.of(context)
+                    .showSnackBar(SnackBar(content: Text('Hello World')));
+              },
+            ),
+          );
+        },
+      ),
     );
   }
 }

@@ -403,3 +403,9 @@ Practice Flutter Widget
 - Need to provide navigation to other pages? Try using a Drawer!
 - Official Youtube Tutorial: https://youtu.be/WRj86iHihgY
 - Official Doc: https://api.flutter.dev/flutter/material/Drawer-class.html
+
+**Week #68 - SnackBar**
+
+- Ever wanted to show a quick message in your app? Then SnackBar is for you! SnackBar lets you pop up a message for a few seconds at the bottom of your app.
+- Official Youtube Tutorial: https://youtu.be/zpO6n_oZWw0
+- Official Doc: https://api.flutter.dev/flutter/material/SnackBar-class.html

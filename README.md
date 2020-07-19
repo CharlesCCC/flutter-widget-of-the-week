@@ -409,3 +409,9 @@ Practice Flutter Widget
 - Ever wanted to show a quick message in your app? Then SnackBar is for you! SnackBar lets you pop up a message for a few seconds at the bottom of your app.
 - Official Youtube Tutorial: https://youtu.be/zpO6n_oZWw0
 - Official Doc: https://api.flutter.dev/flutter/material/SnackBar-class.html
+
+**Week #69 - ListWheelScrollView**
+
+- ListViews let the user see or choose from a number of items that wouldn't normally fit on the screen, but sometimes, an ordinary ListView is too flat and boring. Fortunately, there's ListWheelScrollView.
+- Official Youtube Tutorial: https://youtu.be/dUhmWAz4C7Y
+- Official Doc: https://api.flutter.dev/flutter/widgets/ListWheelScrollView-class.html

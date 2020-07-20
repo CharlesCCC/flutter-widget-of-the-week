@@ -416,3 +416,9 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/dUhmWAz4C7Y
 - Official Doc: https://api.flutter.dev/flutter/widgets/ListWheelScrollView-class.html
   - More In depth explain https://www.woolha.com/tutorials/flutter-using-listwheelscrollview-widget-examples
+
+**Week #70 - ShaderMask**
+
+- ShaderMasks are one of Flutter’s hidden gems! ShaderMasks let you apply a shader to one or more widgets in the tree. There’s tons of cool effects you can achieve with shaders.
+- Official Youtube Tutorial: https://youtu.be/7sUL66pTQ7Q
+- Official Doc: https://api.flutter.dev/flutter/widgets/ShaderMask-class.html

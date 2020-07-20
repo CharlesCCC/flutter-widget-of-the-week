@@ -34,7 +34,26 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: ShaderMask(
+          shaderCallback: (bounds) {
+            return RadialGradient(
+              center: Alignment.topLeft,
+              radius: 0.5,
+              colors: <Color>[Colors.yellow, Colors.deepOrange.shade900],
+              tileMode: TileMode.mirror,
+            ).createShader(bounds);
+          },
+          //blendMode: BlendMode.hardLight,
+          child: const Text(
+            'Buring and buring ',
+            style: TextStyle(
+              fontSize: 72.0,
+              color: Colors.white, //have to set the color to see the effect
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

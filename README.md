@@ -428,3 +428,10 @@ Practice Flutter Widget
 - ShaderMasks are one of Flutter’s hidden gems! ShaderMasks let you apply a shader to one or more widgets in the tree. There’s tons of cool effects you can achieve with shaders.
 - Official Youtube Tutorial: https://youtu.be/cAnFbFoGM50
 - Official Doc: https://api.flutter.dev/flutter/widgets/NotificationListener-class.html
+
+**Week #72 - Builder**
+
+- Most of the time, widgets in Flutter build without looking up any extra information about their parents. Sometimes, you might write some code where the <u>child widget needs to access the build context of a parent widget in the same build method</u>. That's what the Builder widget is for!
+- Official Youtube Tutorial: https://youtu.be/xXNOkIuSYuA
+- Official Doc: https://api.flutter.dev/flutter/widgets/Builder-class.html
+

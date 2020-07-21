@@ -28,13 +28,29 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  List<Widget> _list = List.generate(
+      40,
+      (index) => ListTile(
+            title: Text('Card $index'),
+          ));
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: NotificationListener(
+        onNotification: (notification) {
+          print(notification);
+          return true;
+        },
+        child: Center(
+          child: ListView(
+            children: _list,
+            // itemExtent: 10,
+          ),
+        ),
+      ),
     );
   }
 }

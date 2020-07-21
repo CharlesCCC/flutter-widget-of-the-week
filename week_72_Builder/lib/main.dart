@@ -34,7 +34,20 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: Builder(
+          builder: (context) => RaisedButton(
+            child: Text('Click me'),
+            onPressed: () {
+              Scaffold.of(context).showSnackBar(
+                SnackBar(
+                  content: Text('Test Builder Widget!'),
+                ),
+              );
+            },
+          ),
+        ),
+      ),
     );
   }
 }

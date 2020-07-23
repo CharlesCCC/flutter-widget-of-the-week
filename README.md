@@ -435,3 +435,8 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/xXNOkIuSYuA
 - Official Doc: https://api.flutter.dev/flutter/widgets/Builder-class.html
 
+**Week #71 - ClipPath**
+
+- Do you want your widget to have a unique shape? ClipPath allows you to define your own widget shapes! Given a CustomerClipper and a path that you define, ClipPath will constrain the widget's visible area to within this path. 
+- Official Youtube Tutorial: https://youtu.be/oAUebVIb-7s
+- Official Doc: https://api.flutter.dev/flutter/widgets/ClipPath-class.html

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +35,39 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: ClipPath(
+          child: Container(
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          clipper: MyCustomClipper(),
+        ),
+      ),
     );
   }
+}
+
+class MyCustomClipper extends CustomClipper<Path> {
+  static const POLY_POINTS = 15;
+
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    var rand = Random();
+
+    path.addPolygon(
+        List.generate(
+          POLY_POINTS,
+          (index) => Offset(
+              rand.nextDouble() * size.width, rand.nextDouble() * size.height),
+        ),
+        true);
+
+    return path;
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }

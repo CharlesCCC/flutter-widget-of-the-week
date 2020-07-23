@@ -4,13 +4,53 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Do you want your widget to have a unique shape? ClipPath allows you to define your own widget shapes! Given a CustomerClipper and a path that you define, ClipPath will constrain the widget's visible area to within this path. 
+- Official Youtube Tutorial: https://youtu.be/oAUebVIb-7s
+- Official Doc: https://api.flutter.dev/flutter/widgets/ClipPath-class.html
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: ClipPath(
+          child: Container(
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          clipper: MyCustomClipper(),
+        ),
+      ),
+    );
+  }
+}
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+class MyCustomClipper extends CustomClipper<Path> {
+  static const POLY_POINTS = 15;
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    var rand = Random();
+
+    path.addPolygon(
+        List.generate(
+          POLY_POINTS,
+          (index) => Offset(
+              rand.nextDouble() * size.width, rand.nextDouble() * size.height),
+        ),
+        true);
+
+    return path;
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
+}
+```
+

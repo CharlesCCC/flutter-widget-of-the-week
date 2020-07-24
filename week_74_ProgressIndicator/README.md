@@ -4,13 +4,58 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Do you want to show that your Material app is making progress or working on something? We've got widgets for that! Use CircularProgressIndicator if you want to indicate progress in a roundabout fashion and LinearProgressIndicator if you like lines. The APIs for both progress indicators are almost identical, and each has a determinate and an indeterminate form.
+- Official Youtube Tutorial: https://youtu.be/O-rhXZLtpv0
+- Official Doc: 
+  - https://api.flutter.dev/flutter/material/CircularProgressIndicator-class.html
+  - https://api.flutter.dev/flutter/material/LinearProgressIndicator-class.html
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+class _MyHomePageState extends State<MyHomePage>
+    with SingleTickerProviderStateMixin {
+  AnimationController _animationController;
+  Animation<Color> _colorTween;
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  void initState() {
+    _animationController = AnimationController(
+      duration: Duration(milliseconds: 1800),
+      vsync: this,
+    );
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    _colorTween = _animationController.drive(
+      ColorTween(
+        begin: Colors.red,
+        end: Colors.blue,
+      ),
+    );
+
+    _animationController.repeat();
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.all(42.0),
+              child: CircularProgressIndicator(valueColor: _colorTween),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(42.0),
+              child: LinearProgressIndicator(valueColor: _colorTween),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
+

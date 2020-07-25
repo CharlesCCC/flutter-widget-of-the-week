@@ -34,7 +34,39 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: Column(
+          children: <Widget>[
+            InkWell(
+              child: Container(
+                width: 200,
+                height: 100,
+                color: Colors.red,
+                child: Center(child: Text('Tabable')),
+              ),
+              onTap: () {
+                print('Tabed');
+              },
+            ),
+            SizedBox(
+              height: 25.0,
+            ),
+            IgnorePointer(
+              child: InkWell(
+                child: Container(
+                  width: 200,
+                  height: 100,
+                  color: Colors.amber,
+                  child: Center(child: Text('Not Tabable')),
+                ),
+                onTap: () {
+                  print('Tabed');
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

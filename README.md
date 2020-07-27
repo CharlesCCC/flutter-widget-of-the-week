@@ -460,3 +460,10 @@ Practice Flutter Widget
 - It can be useful to prevent the user from interacting with parts of your app. When the UI changes under users' fingers, that's actually a pretty common and frustrating problem. You could address this problem by disabling all interactive elements in your app, one by one, or you could use IgnorePointer.
 - Official Youtube Tutorial: https://youtu.be/qV9pqHWxYgI
 - Official Doc: https://api.flutter.dev/flutter/widgets/IgnorePointer-class.html
+
+**Week #77 - CupertinoActivityIndicator**
+
+- If you are using Cupertino widgets for your UI and your app needs a loading indicator, then CupertinoActivityIndicator is the widget for you!
+- Official Youtube Tutorial: https://youtu.be/AENVH-ZqKDQ
+- Official Doc: https://api.flutter.dev/flutter/cupertino/CupertinoActivityIndicator-class.html
+

@@ -467,3 +467,8 @@ Practice Flutter Widget
 - Official Youtube Tutorial: https://youtu.be/AENVH-ZqKDQ
 - Official Doc: https://api.flutter.dev/flutter/cupertino/CupertinoActivityIndicator-class.html
 
+**Week #78 - ClipOval**
+
+- Sometimes, a picture or some other part of your screen can look too box-ish. The ClipOval widget can clip its children to round circles and ovals. Use this widget and think outside the box!
+- Official Youtube Tutorial: https://youtu.be/vzWWDO6whIM
+- Official Doc: https://api.flutter.dev/flutter/widgets/ClipOval-class.html

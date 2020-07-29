@@ -472,3 +472,9 @@ Practice Flutter Widget
 - Sometimes, a picture or some other part of your screen can look too box-ish. The ClipOval widget can clip its children to round circles and ovals. Use this widget and think outside the box!
 - Official Youtube Tutorial: https://youtu.be/vzWWDO6whIM
 - Official Doc: https://api.flutter.dev/flutter/widgets/ClipOval-class.html
+
+**Week #79 - AnimatedWidget**
+
+- There are many different options for animations. In many cases, an AnimatedWidget is all you need to make a widget animated. Learn about some animated widgets already built for you and how to build your own! AnimatedWidget isn't a widget on its own, but it is a powerful tool in creating your own animations. 
+- Official Youtube Tutorial: https://youtu.be/LKKgYpC-EPQ
+- Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html

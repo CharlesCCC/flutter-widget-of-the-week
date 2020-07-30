@@ -478,3 +478,9 @@ Practice Flutter Widget
 - There are many different options for animations. In many cases, an AnimatedWidget is all you need to make a widget animated. Learn about some animated widgets already built for you and how to build your own! AnimatedWidget isn't a widget on its own, but it is a powerful tool in creating your own animations. 
 - Official Youtube Tutorial: https://youtu.be/LKKgYpC-EPQ
 - Official Doc: https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html
+
+**Week #80 - Padding**
+
+- In an app with lots of widgets, things often get crowded. By using the Padding widget, you can add some space on any or all sides of a widget! 
+- Official Youtube Tutorial: https://youtu.be/oD5RtLhhubg
+- Official Doc: https://api.flutter.dev/flutter/widgets/Padding-class.html

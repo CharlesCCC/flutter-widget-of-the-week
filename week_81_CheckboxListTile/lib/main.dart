@@ -28,13 +28,30 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  bool _checked = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: ListView.builder(
+          itemCount: 10,
+          itemBuilder: (context, index) => CheckboxListTile(
+            value: _checked,
+            title: Text('Title $index'),
+            secondary: Text('Secondary'),
+            subtitle: Text('SubTitle'),
+            onChanged: (value) {
+              setState(() {
+                _checked = value;
+              });
+              print(value);
+            },
+          ),
+        ),
+      ),
     );
   }
 }

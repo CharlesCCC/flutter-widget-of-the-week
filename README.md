@@ -484,3 +484,9 @@ Practice Flutter Widget
 - In an app with lots of widgets, things often get crowded. By using the Padding widget, you can add some space on any or all sides of a widget! 
 - Official Youtube Tutorial: https://youtu.be/oD5RtLhhubg
 - Official Doc: https://api.flutter.dev/flutter/widgets/Padding-class.html
+
+**Week #81 - CheckboxListTile**
+
+- Whenever you accomplish something, it's rewarding to be able to check it off your list. There's never just one thing to do, though, and these check boxes usually come in a list. CheckboxListTile combines two widgets: Checkbox and ListTile, but instead of simply making the leading or trailing widget a checkbox, it also makes it so that tapping anywhere in the ListTile toggles the checkbox.  
+- Official Youtube Tutorial: https://youtu.be/RkSqPAn9szs
+- Official Doc: https://api.flutter.dev/flutter/material/CheckboxListTile-class.html

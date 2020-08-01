@@ -490,3 +490,9 @@ Practice Flutter Widget
 - Whenever you accomplish something, it's rewarding to be able to check it off your list. There's never just one thing to do, though, and these check boxes usually come in a list. CheckboxListTile combines two widgets: Checkbox and ListTile, but instead of simply making the leading or trailing widget a checkbox, it also makes it so that tapping anywhere in the ListTile toggles the checkbox.  
 - Official Youtube Tutorial: https://youtu.be/RkSqPAn9szs
 - Official Doc: https://api.flutter.dev/flutter/material/CheckboxListTile-class.html
+
+**Week #82 - AboutDialog**
+
+- Sometimes, an app needs a place to put the legalese, the version number, the licenses, and all the other small print. In fact, some stores won't even let you publish your app unless it has all these formalities. You should not leave the creation of such an important part of your app until the last minute, of course. We know you would never do that, but if this happens to you, there's a widget for that!  
+- Official Youtube Tutorial: https://youtu.be/YFCSODyFxbE
+- Official Doc: https://api.flutter.dev/flutter/material/AboutDialog-class.html

@@ -8,3 +8,31 @@ A new Flutter project.
 - Official Youtube Tutorial: https://youtu.be/YFCSODyFxbE
 - Official Doc: https://api.flutter.dev/flutter/material/AboutDialog-class.html
 
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: RaisedButton(
+          child: Text('About'),
+          onPressed: () => showAboutDialog(
+            context: context,
+            applicationIcon: Icon(Icons.accessibility),
+            applicationLegalese: 'Legalese',
+            applicationName: 'About App',
+            applicationVersion: '1.0.0',
+            children: [
+              Text('A Text Widget'),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
+

@@ -34,7 +34,21 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: Center(
+        child: RaisedButton(
+          child: Text('About'),
+          onPressed: () => showAboutDialog(
+            context: context,
+            applicationIcon: Icon(Icons.accessibility),
+            applicationLegalese: 'Legalese',
+            applicationName: 'About App',
+            applicationVersion: '1.0.0',
+            children: [
+              Text('A Text Widget'),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

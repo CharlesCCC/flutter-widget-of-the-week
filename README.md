@@ -1,9 +1,11 @@
-# Flutter Widget of the Week
+# FWoW (Flutter Widget of the Week)
 Practice Flutter Widget
 
 **Telegram Discussion group**: http://t.me/csflutter 
 
 **GitHub Project Page**: https://github.com/users/CharlesCCC/projects/1
+
+------
 
 **Official YouTube Playlist**: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 
@@ -11,7 +13,7 @@ Practice Flutter Widget
 
 **Flutter Cookbook**: https://flutter.dev/docs/cookbook 
 
-
+------
 
 
 

@@ -1,5 +1,6 @@
 import 'package:FWoW/constants.dart';
 import 'package:FWoW/screens/week1_safearea.dart';
+import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,6 +17,11 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Flutter Widget of the Week'),
+      routes: {
+        //'/': (context) => MyHomePage(),
+        Const.WEEK1_SafeArea: (context) => Week1SafeArea(),
+        Const.WEEK2_Expanded: (context) => Week2Expanded(),
+      },
     );
   }
 }
@@ -42,11 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
           itemBuilder: (context, index) {
             return ListTile(
               title: Text(Const.ROUTES[index]),
-              onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (_) => Week1SafeArea(),
-                ),
-              ),
+              trailing: Icon(Icons.check_box_outline_blank),
+              onTap: () =>
+                  Navigator.of(context).pushNamed('${Const.ROUTES[index]}'),
             );
           },
         ),

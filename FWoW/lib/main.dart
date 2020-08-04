@@ -1,6 +1,7 @@
 import 'package:FWoW/constants.dart';
 import 'package:FWoW/screens/week1_safearea.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
+import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         //'/': (context) => MyHomePage(),
         Const.WEEK1_SafeArea: (context) => Week1SafeArea(),
         Const.WEEK2_Expanded: (context) => Week2Expanded(),
+        Const.WEEK3_Wrap: (context) => Week3Wrap(),
       },
     );
   }
@@ -47,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
           itemCount: Const.ROUTES.length,
           itemBuilder: (context, index) {
             return ListTile(
+              leading: Icon(Icons.developer_board),
               title: Text(Const.ROUTES[index]),
               trailing: Icon(Icons.check_box_outline_blank),
               onTap: () =>

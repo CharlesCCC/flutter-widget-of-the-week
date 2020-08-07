@@ -10,6 +10,8 @@ A new Flutter project.
 2. Week#2 Expanded
 3. Week#3 Wrap
 4. Week#4 AnimatedContainer
+5. Week#5 Opacity
+6. Week#6 FutureBuilder
 
 Todo:
 

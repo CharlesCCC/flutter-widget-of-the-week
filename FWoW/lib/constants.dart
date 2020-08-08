@@ -5,6 +5,7 @@ class Const {
   static const WEEK4_AnimatedContainer = 'Week#4_AnimatedContainer';
   static const WEEK5_Opacity = 'Week#5_Opacity';
   static const WEEK6_FutureBuilder = 'Week#6_FutureBuilder';
+  static const WEEK7_FadeTransition = 'Week#7_FadeTransition';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -13,5 +14,6 @@ class Const {
     WEEK4_AnimatedContainer,
     WEEK5_Opacity,
     WEEK6_FutureBuilder,
+    WEEK7_FadeTransition,
   ];
 }

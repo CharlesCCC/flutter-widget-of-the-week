@@ -3,8 +3,9 @@ import 'package:FWoW/screens/week1_safearea.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
-import 'package:FWoW/screens/week5_futureBuilder.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
+import 'package:FWoW/screens/week6_futureBuilder.dart';
+import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         Const.WEEK4_AnimatedContainer: (context) => Week4AnimatedContainer(),
         Const.WEEK5_Opacity: (context) => Week5Opacity(),
         Const.WEEK6_FutureBuilder: (context) => Week6FutureBuilder(),
+        Const.WEEK7_FadeTransition: (context) => Week7FadeTransition(),
       },
     );
   }

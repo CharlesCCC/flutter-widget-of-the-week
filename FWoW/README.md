@@ -12,6 +12,8 @@ A new Flutter project.
 4. Week#4 AnimatedContainer
 5. Week#5 Opacity
 6. Week#6 FutureBuilder
+7. Week#7 FadeTransition
+8. Week#8 FloatingActionButton
 
 Todo:
 

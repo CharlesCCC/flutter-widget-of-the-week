@@ -6,6 +6,7 @@ import 'package:FWoW/screens/week4_animatedContainer.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
+import 'package:FWoW/screens/week8_floatingActionButton.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Widget of the Week'),
+      home: MyHomePage(title: 'Flutter Widget of the Week Demo'),
       routes: {
         //'/': (context) => MyHomePage(),
         Const.WEEK1_SafeArea: (context) => Week1SafeArea(),
@@ -31,6 +32,8 @@ class MyApp extends StatelessWidget {
         Const.WEEK5_Opacity: (context) => Week5Opacity(),
         Const.WEEK6_FutureBuilder: (context) => Week6FutureBuilder(),
         Const.WEEK7_FadeTransition: (context) => Week7FadeTransition(),
+        Const.WEEK8_FloatingActionButton: (context) =>
+            Week8FloatingActionButton(),
       },
     );
   }

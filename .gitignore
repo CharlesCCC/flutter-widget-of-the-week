@@ -112,3 +112,4 @@ coverage/
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 FWoW/ios/Flutter/.last_build_id
+week_9_pageview/ios/Flutter/.last_build_id

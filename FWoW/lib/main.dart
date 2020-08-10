@@ -7,6 +7,7 @@ import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
+import 'package:FWoW/screens/week9_pageView.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         Const.WEEK7_FadeTransition: (context) => Week7FadeTransition(),
         Const.WEEK8_FloatingActionButton: (context) =>
             Week8FloatingActionButton(),
+        Const.WEEK9_PageView: (context) => Week9PageView(),
       },
     );
   }

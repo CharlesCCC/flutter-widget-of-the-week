@@ -29,14 +29,19 @@ class _Week9PageViewState extends State<Week9PageView> {
 
   @override
   Widget build(BuildContext context) {
-    return PageView(
-      controller: _pageController,
-      scrollDirection: Axis.vertical,
-      children: [
-        MyPage1Widget(),
-        MyPage2Widget(),
-        MyPage3Widget(),
-      ],
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Week 9 PageView'),
+      ),
+      body: PageView(
+        controller: _pageController,
+        scrollDirection: Axis.vertical,
+        children: [
+          MyPage1Widget(),
+          MyPage2Widget(),
+          MyPage3Widget(),
+        ],
+      ),
     );
   }
 }

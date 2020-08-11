@@ -15,6 +15,7 @@ A new Flutter project.
 7. Week#7 FadeTransition
 8. Week#8 FloatingActionButton
 9. Week#9 PageView 
+10. Week#10 Table
 
 Todo:
 

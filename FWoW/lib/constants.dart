@@ -8,6 +8,7 @@ class Const {
   static const WEEK7_FadeTransition = 'Week#7_FadeTransition';
   static const WEEK8_FloatingActionButton = 'Week#8_FloatingActionButton';
   static const WEEK9_PageView = 'Week#9_PageView';
+  static const WEEK10_Table = 'Week#10_Table';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -19,5 +20,6 @@ class Const {
     WEEK7_FadeTransition,
     WEEK8_FloatingActionButton,
     WEEK9_PageView,
+    WEEK10_Table,
   ];
 }

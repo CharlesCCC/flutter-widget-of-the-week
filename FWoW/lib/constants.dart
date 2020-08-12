@@ -9,6 +9,7 @@ class Const {
   static const WEEK8_FloatingActionButton = 'Week#8_FloatingActionButton';
   static const WEEK9_PageView = 'Week#9_PageView';
   static const WEEK10_Table = 'Week#10_Table';
+  static const WEEK11_SliverAppBar = 'Week#11_SliverAppBar';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -21,5 +22,6 @@ class Const {
     WEEK8_FloatingActionButton,
     WEEK9_PageView,
     WEEK10_Table,
+    WEEK11_SliverAppBar,
   ];
 }

@@ -16,6 +16,7 @@ A new Flutter project.
 8. Week#8 FloatingActionButton
 9. Week#9 PageView 
 10. Week#10 Table
+11. Week#11 SliverAppBar 
 
 Todo:
 

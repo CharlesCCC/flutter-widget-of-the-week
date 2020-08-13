@@ -1,6 +1,7 @@
 import 'package:FWoW/constants.dart';
 import 'package:FWoW/screens/week10_table.dart';
 import 'package:FWoW/screens/week11_sliverAppBar.dart';
+import 'package:FWoW/screens/week12_sliverListGrid.dart';
 import 'package:FWoW/screens/week1_safearea.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
@@ -41,6 +42,9 @@ class MyApp extends StatelessWidget {
         Const.WEEK10_Table: (context) => Week10Table(title: Const.WEEK10_Table),
         Const.WEEK11_SliverAppBar: (context) =>
             Week11SliverAppBar(title: Const.WEEK11_SliverAppBar),
+        Const.WEEK12_SliverListGrid: (context) => Week12SliverListGrid(
+              title: Const.WEEK12_SliverListGrid,
+            ),
       },
     );
   }

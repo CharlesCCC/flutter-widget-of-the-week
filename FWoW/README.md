@@ -17,6 +17,7 @@ A new Flutter project.
 9. Week#9 PageView 
 10. Week#10 Table
 11. Week#11 SliverAppBar 
+12. Week#12 SliverListGrid
 
 Todo:
 

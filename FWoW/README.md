@@ -18,6 +18,8 @@ A new Flutter project.
 10. Week#10 Table
 11. Week#11 SliverAppBar 
 12. Week#12 SliverListGrid
+13. Week#13 FadeInImage
+14. Week#14 StreamBuilder
 
 Todo:
 

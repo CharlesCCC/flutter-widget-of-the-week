@@ -13,6 +13,7 @@ class Const {
   static const WEEK12_SliverListGrid = 'Week12_SliverListGrid';
   static const WEEK13_FadeInImage = 'Week13_FadeInImage';
   static const WEEK14_StreamBuilder = 'Week14_StreamBuilder';
+  static const WEEK15_InheritedModel = 'Week15_InheritedModel';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -29,5 +30,6 @@ class Const {
     WEEK12_SliverListGrid,
     WEEK13_FadeInImage,
     WEEK14_StreamBuilder,
+    WEEK15_InheritedModel,
   ];
 }

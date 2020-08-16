@@ -4,6 +4,7 @@ import 'package:FWoW/screens/week11_sliverAppBar.dart';
 import 'package:FWoW/screens/week12_sliverListGrid.dart';
 import 'package:FWoW/screens/week13_fadeInImage.dart';
 import 'package:FWoW/screens/week14_StreamBuilder.dart';
+import 'package:FWoW/screens/week15_InheritedModel.dart';
 import 'package:FWoW/screens/week1_safearea.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
@@ -58,6 +59,8 @@ class MyApp extends StatelessWidget {
       Const.WEEK14_StreamBuilder: (context) => Week14StreamBuilder(
             title: Const.WEEK14_StreamBuilder,
           ),
+      Const.WEEK15_InheritedModel: (context) =>
+          Week15InheritedModel(title: Const.WEEK15_InheritedModel),
     };
   }
 }

@@ -14,6 +14,7 @@ class Const {
   static const WEEK13_FadeInImage = 'Week13_FadeInImage';
   static const WEEK14_StreamBuilder = 'Week14_StreamBuilder';
   static const WEEK15_InheritedModel = 'Week15_InheritedModel';
+  static const WEEK16_ClipRRect = 'week_16_ClipRRect';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -31,5 +32,6 @@ class Const {
     WEEK13_FadeInImage,
     WEEK14_StreamBuilder,
     WEEK15_InheritedModel,
+    WEEK16_ClipRRect,
   ];
 }

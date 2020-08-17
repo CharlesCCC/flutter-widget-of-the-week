@@ -21,6 +21,7 @@ A new Flutter project.
 13. Week#13 FadeInImage
 14. Week#14 StreamBuilder
 15. Week#15 InheritedModel (TBC-To Be Complete)
+16. Week#16 ClipRRect 
 
 Todo:
 

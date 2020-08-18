@@ -22,6 +22,7 @@ A new Flutter project.
 14. Week#14 StreamBuilder
 15. Week#15 InheritedModel (TBC-To Be Complete)
 16. Week#16 ClipRRect 
+17. Week#17 Hero
 
 Todo:
 

@@ -23,6 +23,7 @@ A new Flutter project.
 15. Week#15 InheritedModel (TBC-To Be Complete)
 16. Week#16 ClipRRect 
 17. Week#17 Hero
+18. Week#18 CustomPaint
 
 Todo:
 

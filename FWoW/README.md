@@ -24,6 +24,7 @@ A new Flutter project.
 16. Week#16 ClipRRect 
 17. Week#17 Hero
 18. Week#18 CustomPaint
+19. Week#19 ToolTip
 
 Todo:
 

@@ -16,7 +16,8 @@ class Const {
   static const WEEK15_InheritedModel = 'Week15_InheritedModel';
   static const WEEK16_ClipRRect = 'week_16_ClipRRect';
   static const WEEK17_Hero = 'week_17_Hero';
-  static const WEEK_18_CustomPaint = 'week_18_CustomPaint';
+  static const WEEK18_CustomPaint = 'week_18_CustomPaint';
+  static const WEEK19_ToolTip = 'week_19_Tooltip';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -36,6 +37,7 @@ class Const {
     WEEK15_InheritedModel,
     WEEK16_ClipRRect,
     WEEK17_Hero,
-    WEEK_18_CustomPaint
+    WEEK18_CustomPaint,
+    WEEK19_ToolTip,
   ];
 }

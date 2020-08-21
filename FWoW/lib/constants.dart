@@ -18,6 +18,7 @@ class Const {
   static const WEEK17_Hero = 'week_17_Hero';
   static const WEEK18_CustomPaint = 'week_18_CustomPaint';
   static const WEEK19_ToolTip = 'week_19_Tooltip';
+  static const WEEK20_FittedBox = 'week_20_FittedBox';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -39,5 +40,6 @@ class Const {
     WEEK17_Hero,
     WEEK18_CustomPaint,
     WEEK19_ToolTip,
+    WEEK20_FittedBox,
   ];
 }

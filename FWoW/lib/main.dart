@@ -11,6 +11,7 @@ import 'package:FWoW/screens/week18_CustomPaint.dart';
 import 'package:FWoW/screens/week19_ToolTip.dart';
 import 'package:FWoW/screens/week1_safearea.dart';
 import 'package:FWoW/screens/week20_FittedBox.dart';
+import 'package:FWoW/screens/week21_LayOutBuilder.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
@@ -75,6 +76,8 @@ class MyApp extends StatelessWidget {
           Week19ToolTip(title: Const.WEEK19_ToolTip),
       Const.WEEK20_FittedBox: (context) =>
           Week20FittedBox(title: Const.WEEK20_FittedBox),
+      Const.WEEK21_LayOutBuilder: (context) =>
+          Week21LayOutBuilder(title: Const.WEEK21_LayOutBuilder),
     };
   }
 }

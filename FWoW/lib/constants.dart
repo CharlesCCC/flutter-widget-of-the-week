@@ -20,6 +20,7 @@ class Const {
   static const WEEK19_ToolTip = 'week_19_Tooltip';
   static const WEEK20_FittedBox = 'week_20_FittedBox';
   static const WEEK21_LayOutBuilder = 'week_21_LayOutBuilder';
+  static const WEEK22_AbsorbPointer = 'week_22_AbsorbPointer';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -43,5 +44,6 @@ class Const {
     WEEK19_ToolTip,
     WEEK20_FittedBox,
     WEEK21_LayOutBuilder,
+    WEEK22_AbsorbPointer,
   ];
 }

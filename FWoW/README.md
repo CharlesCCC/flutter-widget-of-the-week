@@ -29,6 +29,7 @@ A new Flutter project.
 21. Week#21 LayoutBuilder
 22. Week#22 AbsorbPointer
 23. Week#23 Transform
+24. Week#24 BackdropFilter
 
 Todo:
 

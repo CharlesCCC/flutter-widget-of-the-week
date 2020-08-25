@@ -22,6 +22,7 @@ class Const {
   static const WEEK21_LayOutBuilder = 'week_21_LayOutBuilder';
   static const WEEK22_AbsorbPointer = 'week_22_AbsorbPointer';
   static const WEEK23_Transform = 'week_23_Transform';
+  static const WEEK_24_BackdropFilter = 'week_24_BackDropFilter';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -47,5 +48,6 @@ class Const {
     WEEK21_LayOutBuilder,
     WEEK22_AbsorbPointer,
     WEEK23_Transform,
+    WEEK_24_BackdropFilter,
   ];
 }

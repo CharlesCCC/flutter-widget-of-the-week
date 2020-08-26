@@ -30,6 +30,7 @@ A new Flutter project.
 22. Week#22 AbsorbPointer
 23. Week#23 Transform
 24. Week#24 BackdropFilter
+25. Week#25 Align
 
 Todo:
 

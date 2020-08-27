@@ -24,6 +24,7 @@ class Const {
   static const WEEK23_Transform = 'week_23_Transform';
   static const WEEK24_BackdropFilter = 'week_24_BackDropFilter';
   static const WEEK25_Align = 'week_25_Align';
+  static const WEEK26_Positioned = 'week_26_Positioned';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -51,5 +52,6 @@ class Const {
     WEEK23_Transform,
     WEEK24_BackdropFilter,
     WEEK25_Align,
+    WEEK26_Positioned,
   ];
 }

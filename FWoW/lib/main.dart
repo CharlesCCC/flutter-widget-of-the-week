@@ -16,6 +16,7 @@ import 'package:FWoW/screens/week22_AbsorbPointer.dart';
 import 'package:FWoW/screens/week23_Transform.dart';
 import 'package:FWoW/screens/week24_BackDropFilter.dart';
 import 'package:FWoW/screens/week25_Align.dart';
+import 'package:FWoW/screens/week26_Positioned.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
@@ -89,6 +90,8 @@ class MyApp extends StatelessWidget {
       Const.WEEK24_BackdropFilter: (context) =>
           Week24BackdropFilter(title: Const.WEEK24_BackdropFilter),
       Const.WEEK25_Align: (context) => Week25Align(title: Const.WEEK25_Align),
+      Const.WEEK26_Positioned: (context) =>
+          Week26Positioned(title: Const.WEEK26_Positioned),
     };
   }
 }

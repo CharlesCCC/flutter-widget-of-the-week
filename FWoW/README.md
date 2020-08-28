@@ -32,6 +32,7 @@ A new Flutter project.
 24. Week#24 BackdropFilter
 25. Week#25 Align
 26. Week#26 Positioned
+27. Week#27 AnimatedBuilder 
 
 Todo:
 

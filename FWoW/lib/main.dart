@@ -17,6 +17,7 @@ import 'package:FWoW/screens/week23_Transform.dart';
 import 'package:FWoW/screens/week24_BackDropFilter.dart';
 import 'package:FWoW/screens/week25_Align.dart';
 import 'package:FWoW/screens/week26_Positioned.dart';
+import 'package:FWoW/screens/week27_AnimatedBuilder.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
@@ -92,6 +93,7 @@ class MyApp extends StatelessWidget {
       Const.WEEK25_Align: (context) => Week25Align(title: Const.WEEK25_Align),
       Const.WEEK26_Positioned: (context) =>
           Week26Positioned(title: Const.WEEK26_Positioned),
+      Const.WEEK27_AnimatedBuilder: (context) => Week27AnimatedBuilder(),
     };
   }
 }

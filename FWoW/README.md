@@ -33,6 +33,7 @@ A new Flutter project.
 25. Week#25 Align
 26. Week#26 Positioned
 27. Week#27 AnimatedBuilder 
+28. Week#28 Dismissible 
 
 Todo:
 

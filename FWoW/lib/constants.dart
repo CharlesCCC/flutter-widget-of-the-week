@@ -27,6 +27,7 @@ class Const {
   static const WEEK26_Positioned = 'week_26_Positioned';
   static const WEEK27_AnimatedBuilder = 'week_27_AnimatedBuilder';
   static const WEEK28_Dismissible = 'week_28_Dismissible';
+  static const WEEk29_SizedBox = 'week_29_SizedBox';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -57,5 +58,6 @@ class Const {
     WEEK26_Positioned,
     WEEK27_AnimatedBuilder,
     WEEK28_Dismissible,
+    WEEk29_SizedBox,
   ];
 }

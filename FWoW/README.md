@@ -34,6 +34,7 @@ A new Flutter project.
 26. Week#26 Positioned
 27. Week#27 AnimatedBuilder 
 28. Week#28 Dismissible 
+29. Week#29 SizedBox
 
 Todo:
 

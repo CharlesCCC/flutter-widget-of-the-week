@@ -21,6 +21,7 @@ import 'package:FWoW/screens/week27_AnimatedBuilder.dart';
 import 'package:FWoW/screens/week28_Dismissible.dart';
 import 'package:FWoW/screens/week29_SizedBox.dart';
 import 'package:FWoW/screens/week2_expaned.dart';
+import 'package:FWoW/screens/week30_ValueListenableBuilder.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
@@ -100,6 +101,9 @@ class MyApp extends StatelessWidget {
           Week28Dismissible(title: Const.WEEK28_Dismissible),
       Const.WEEk29_SizedBox: (context) =>
           Week29SizedBox(title: Const.WEEk29_SizedBox),
+      Const.WEEK30_ValueListenableBuilder: (context) =>
+          Week30ValueListenableBuilder(
+              title: Const.WEEK30_ValueListenableBuilder),
     };
   }
 }

@@ -35,6 +35,7 @@ A new Flutter project.
 27. Week#27 AnimatedBuilder 
 28. Week#28 Dismissible 
 29. Week#29 SizedBox
+30. Week#30 ValueListenableBuilder 
 
 Todo:
 

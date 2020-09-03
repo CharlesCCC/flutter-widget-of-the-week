@@ -38,6 +38,7 @@ A new Flutter project.
 30. Week#30 ValueListenableBuilder 
 31. Week#31 Draggable
 32. Week#32 AnimatedLIst
+33. Week#33 Flexible
 
 Todo:
 

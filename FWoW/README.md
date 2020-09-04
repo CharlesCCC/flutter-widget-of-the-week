@@ -39,6 +39,7 @@ A new Flutter project.
 31. Week#31 Draggable
 32. Week#32 AnimatedLIst
 33. Week#33 Flexible
+34. Week#34 MediaQuery
 
 Todo:
 

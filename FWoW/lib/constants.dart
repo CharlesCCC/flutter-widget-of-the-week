@@ -34,6 +34,7 @@ class Const {
   static const WEEK33_Flexible = 'week_33_Flexible';
   static const WEEK34_MediaQuery = 'week_34_MediaQuery';
   static const WEEK35_Spacer = 'week_35_Spacer';
+  static const WEEK36_InheritedWidget = 'Week_36_InheritedWidget';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -71,5 +72,6 @@ class Const {
     WEEK33_Flexible,
     WEEK34_MediaQuery,
     WEEK35_Spacer,
+    WEEK36_InheritedWidget,
   ];
 }

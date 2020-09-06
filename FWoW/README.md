@@ -41,6 +41,7 @@ A new Flutter project.
 33. Week#33 Flexible
 34. Week#34 MediaQuery
 35. Week#35 Spacer
+36. Week#36 InheritedWidget
 
 Todo:
 

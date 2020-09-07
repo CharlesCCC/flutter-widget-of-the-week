@@ -35,7 +35,7 @@ class Const {
   static const WEEK34_MediaQuery = 'week_34_MediaQuery';
   static const WEEK35_Spacer = 'week_35_Spacer';
   static const WEEK36_InheritedWidget = 'Week_36_InheritedWidget';
-
+  static const WEEK37_AnimatedIcon = 'Week_37_AnimatedIcon';
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
     WEEK2_Expanded,
@@ -73,5 +73,6 @@ class Const {
     WEEK34_MediaQuery,
     WEEK35_Spacer,
     WEEK36_InheritedWidget,
+    WEEK37_AnimatedIcon,
   ];
 }

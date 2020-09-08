@@ -29,6 +29,7 @@ import 'package:FWoW/screens/week34_MediaQuery.dart';
 import 'package:FWoW/screens/week35_Spacer.dart';
 import 'package:FWoW/screens/week36_InheritedWidget.dart';
 import 'package:FWoW/screens/week37_AnimatedIcon.dart';
+import 'package:FWoW/screens/week38_AspectRatio.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
@@ -124,6 +125,8 @@ class MyApp extends StatelessWidget {
           Week36InheritedWidget(title: Const.WEEK36_InheritedWidget),
       Const.WEEK37_AnimatedIcon: (context) =>
           Week37AnimatedIcon(title: Const.WEEK37_AnimatedIcon),
+      Const.WEEK38_AspectRatio: (context) =>
+          Week38AspectRatio(title: Const.WEEK38_AspectRatio),
     };
   }
 }

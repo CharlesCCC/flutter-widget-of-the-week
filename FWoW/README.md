@@ -44,6 +44,7 @@ A new Flutter project.
 36. Week#36 InheritedWidget
 37. Week#37 AnimatedIcon
 38. Week#38 AspectRatio 
+39. Week#39 LimitedBox
 
 Todo:
 

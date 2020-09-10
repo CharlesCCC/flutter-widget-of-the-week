@@ -32,6 +32,7 @@ import 'package:FWoW/screens/week37_AnimatedIcon.dart';
 import 'package:FWoW/screens/week38_AspectRatio.dart';
 import 'package:FWoW/screens/week39_LimistedBox.dart';
 import 'package:FWoW/screens/week3_wrap.dart';
+import 'package:FWoW/screens/week40_PlaceHolder.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
@@ -130,6 +131,8 @@ class MyApp extends StatelessWidget {
           Week38AspectRatio(title: Const.WEEK38_AspectRatio),
       Const.WEEK39_LimitedBox: (context) =>
           Week39LimitedBox(title: Const.WEEK39_LimitedBox),
+      Const.WEEK40_PlaceHolder: (context) =>
+          Week40PlaceHolder(title: Const.WEEK40_PlaceHolder),
     };
   }
 }

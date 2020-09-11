@@ -46,6 +46,7 @@ A new Flutter project.
 38. Week#38 AspectRatio 
 39. Week#39 LimitedBox
 40. Week#40 PlaceHolder
+41. Week#41 RichText
 
 Todo:
 

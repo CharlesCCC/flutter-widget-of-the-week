@@ -40,6 +40,7 @@ class Const {
   static const WEEK39_LimitedBox = 'Week_39_LimitedBox';
   static const WEEK40_PlaceHolder = 'Week_40_PlaceHolder';
   static const WEEK41_RichText = 'Week_41_RichText';
+  static const WEEK42_ReorderableListView = 'Week_42_ReorderableListView';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -82,6 +83,7 @@ class Const {
     WEEK38_AspectRatio,
     WEEK39_LimitedBox,
     WEEK40_PlaceHolder,
-    WEEK41_RichText
+    WEEK41_RichText,
+    WEEK42_ReorderableListView,
   ];
 }

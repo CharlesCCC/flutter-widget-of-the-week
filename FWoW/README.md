@@ -48,6 +48,7 @@ A new Flutter project.
 40. Week#40 PlaceHolder
 41. Week#41 RichText
 42. Week#42 ReorderableListView
+43. Week#43 AnimatedSwitcher
 
 Todo:
 

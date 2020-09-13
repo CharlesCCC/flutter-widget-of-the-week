@@ -41,6 +41,7 @@ class Const {
   static const WEEK40_PlaceHolder = 'Week_40_PlaceHolder';
   static const WEEK41_RichText = 'Week_41_RichText';
   static const WEEK42_ReorderableListView = 'Week_42_ReorderableListView';
+  static const WEEK43_AnimatedSwitcher = 'Week_43_AnimatedSwitcher';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -85,5 +86,6 @@ class Const {
     WEEK40_PlaceHolder,
     WEEK41_RichText,
     WEEK42_ReorderableListView,
+    WEEK43_AnimatedSwitcher,
   ];
 }

@@ -50,6 +50,7 @@ A new Flutter project.
 42. Week#42 ReorderableListView
 43. Week#43 AnimatedSwitcher
 44. Week#44 AnimatedPositioned
+45. Week#45 AnimatedPadding 
 
 Todo:
 

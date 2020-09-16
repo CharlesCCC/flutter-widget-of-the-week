@@ -38,6 +38,7 @@ import 'package:FWoW/screens/week42_ReorderableListView.dart';
 import 'package:FWoW/screens/week43_AnimatedSwitcher.dart';
 import 'package:FWoW/screens/week44_AnimatedPositioned.dart';
 import 'package:FWoW/screens/week45_AnimatedPadding.dart';
+import 'package:FWoW/screens/week46_IndexedStack.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
@@ -148,6 +149,8 @@ class MyApp extends StatelessWidget {
           Week44AnimatedPositioned(title: Const.WEEK44_AnimatedPositioned),
       Const.WEEK45_AnimatedPadding: (context) =>
           Week45AnimatedPadding(title: Const.WEEK45_AnimatedPadding),
+      Const.WEEK46_IndexedStack: (context) =>
+          Week46IndexedStack(title: Const.WEEK46_IndexedStack),
     };
   }
 }

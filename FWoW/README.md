@@ -52,6 +52,7 @@ A new Flutter project.
 44. Week#44 AnimatedPositioned
 45. Week#45 AnimatedPadding 
 46. Week#46 IndexedStack
+47. Week#47 Semantics
 
 Todo:
 

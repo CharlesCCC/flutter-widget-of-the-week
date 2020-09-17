@@ -45,6 +45,7 @@ class Const {
   static const WEEK44_AnimatedPositioned = 'Week_44_AnimatedPositioned';
   static const WEEK45_AnimatedPadding = 'Week_45_AnimatedPadding';
   static const WEEK46_IndexedStack = 'Week_46_IndexedStack';
+  static const WEEK47_Semantics = 'Week_47_Semantics';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -93,5 +94,6 @@ class Const {
     WEEK44_AnimatedPositioned,
     WEEK45_AnimatedPadding,
     WEEK46_IndexedStack,
+    WEEK47_Semantics,
   ];
 }

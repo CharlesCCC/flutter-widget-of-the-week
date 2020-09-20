@@ -48,6 +48,7 @@ class Const {
   static const WEEK47_Semantics = 'Week_47_Semantics';
   static const WEEK48_ConstrainedBox = 'Week_48_ConstrainedBox';
   static const WEEK49_Stack = 'Week_49_Stack';
+  static const WEEK50_AnimatedOpacity = 'WEEK_50_AnimatedOpacity';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -99,5 +100,6 @@ class Const {
     WEEK47_Semantics,
     WEEK48_ConstrainedBox,
     WEEK49_Stack,
+    WEEK50_AnimatedOpacity,
   ];
 }

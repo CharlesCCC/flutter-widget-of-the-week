@@ -55,6 +55,7 @@ A new Flutter project.
 47. Week#47 Semantics
 48. Week#48 ConstrainedBox 
 49. Week#49 Stack
+50. Week#50 AnimatedOpacity
 
 Todo:
 

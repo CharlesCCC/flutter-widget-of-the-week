@@ -43,6 +43,7 @@ import 'package:FWoW/screens/week47_Semantics.dart';
 import 'package:FWoW/screens/week48_ConstrainedBox.dart';
 import 'package:FWoW/screens/week49_Stack.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
+import 'package:FWoW/screens/week50_AnimatedOpacity.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
@@ -159,6 +160,8 @@ class MyApp extends StatelessWidget {
       Const.WEEK48_ConstrainedBox: (context) =>
           Week48ConstrainedBox(title: Const.WEEK48_ConstrainedBox),
       Const.WEEK49_Stack: (context) => Week49Stack(title: Const.WEEK49_Stack),
+      Const.WEEK50_AnimatedOpacity: (context) =>
+          Week50AnimatedOpacity(title: Const.WEEK50_AnimatedOpacity),
     };
   }
 }

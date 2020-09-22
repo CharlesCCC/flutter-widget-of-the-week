@@ -50,6 +50,7 @@ class Const {
   static const WEEK49_Stack = 'Week_49_Stack';
   static const WEEK50_AnimatedOpacity = 'WEEK_50_AnimatedOpacity';
   static const WEEK51_FractionallySizedBox = 'Week_51_FractionallySizedBox';
+  static const WEEK52_ListView = 'Week_52_ListView';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -103,5 +104,6 @@ class Const {
     WEEK49_Stack,
     WEEK50_AnimatedOpacity,
     WEEK51_FractionallySizedBox,
+    WEEK52_ListView,
   ];
 }

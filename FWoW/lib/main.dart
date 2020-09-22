@@ -45,6 +45,7 @@ import 'package:FWoW/screens/week49_Stack.dart';
 import 'package:FWoW/screens/week4_animatedContainer.dart';
 import 'package:FWoW/screens/week50_AnimatedOpacity.dart';
 import 'package:FWoW/screens/week51_fractionallySizedBox.dart';
+import 'package:FWoW/screens/week52_ListView.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
@@ -165,6 +166,8 @@ class MyApp extends StatelessWidget {
           Week50AnimatedOpacity(title: Const.WEEK50_AnimatedOpacity),
       Const.WEEK51_FractionallySizedBox: (context) =>
           Week51FractionallySizedBox(title: Const.WEEK51_FractionallySizedBox),
+      Const.WEEK52_ListView: (context) =>
+          Week52ListView(title: Const.WEEK52_ListView),
     };
   }
 }

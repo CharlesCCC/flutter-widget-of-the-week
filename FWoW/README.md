@@ -58,6 +58,7 @@ A new Flutter project.
 50. Week#50 AnimatedOpacity
 51. Week#51 FractionallySizedBox
 52. Week#52 ListView
+53. Week#53 ListTile
 
 Todo:
 

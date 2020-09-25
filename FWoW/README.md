@@ -60,6 +60,7 @@ A new Flutter project.
 52. Week#52 ListView
 53. Week#53 ListTile
 54. Week#54 Container
+55. Week#55 SelectableText
 
 Todo:
 

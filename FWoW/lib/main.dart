@@ -48,6 +48,7 @@ import 'package:FWoW/screens/week51_fractionallySizedBox.dart';
 import 'package:FWoW/screens/week52_ListView.dart';
 import 'package:FWoW/screens/week53_ListTile.dart';
 import 'package:FWoW/screens/week54_Container.dart';
+import 'package:FWoW/screens/week55_SelectableText.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
@@ -174,6 +175,8 @@ class MyApp extends StatelessWidget {
           Week53ListTile(title: Const.WEEK53_ListTile),
       Const.WEEK54_Container: (context) =>
           Week54Container(title: Const.WEEK54_Container),
+      Const.WEEK55_SelectableText: (context) =>
+          Week55SelectableText(title: Const.WEEK55_SelectableText),
     };
   }
 }

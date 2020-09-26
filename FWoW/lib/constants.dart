@@ -54,6 +54,7 @@ class Const {
   static const WEEK53_ListTile = 'Week_53_ListTile';
   static const WEEK54_Container = 'Week_54_Container';
   static const WEEK55_SelectableText = 'Week_55_SelectableText';
+  static const WEEK56_DataTable = 'Week_56_DataTable';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -111,5 +112,6 @@ class Const {
     WEEK53_ListTile,
     WEEK54_Container,
     WEEK55_SelectableText,
+    WEEK56_DataTable,
   ];
 }

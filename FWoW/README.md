@@ -62,6 +62,7 @@ A new Flutter project.
 54. Week#54 Container
 55. Week#55 SelectableText
 56. Week#56 DataTable
+57. Week#57 Slider 
 
 Todo:
 

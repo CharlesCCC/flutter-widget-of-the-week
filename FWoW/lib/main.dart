@@ -51,6 +51,7 @@ import 'package:FWoW/screens/week54_Container.dart';
 import 'package:FWoW/screens/week55_SelectableText.dart';
 import 'package:FWoW/screens/week56_DataTable.dart';
 import 'package:FWoW/screens/week57_Slider.dart';
+import 'package:FWoW/screens/week58_AlertDialog.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
@@ -183,6 +184,8 @@ class MyApp extends StatelessWidget {
           Week56DataTable(title: Const.WEEK56_DataTable),
       Const.WEEK57_Slider: (context) =>
           Week57Slider(title: Const.WEEK57_Slider),
+      Const.WEEK58_AlertDialog: (context) =>
+          Week58AlertDialog(title: Const.WEEK58_AlertDialog),
     };
   }
 }

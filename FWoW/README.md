@@ -63,6 +63,7 @@ A new Flutter project.
 55. Week#55 SelectableText
 56. Week#56 DataTable
 57. Week#57 Slider 
+58. Week#58 AlertDialog 
 
 Todo:
 

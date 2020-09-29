@@ -64,6 +64,7 @@ A new Flutter project.
 56. Week#56 DataTable
 57. Week#57 Slider 
 58. Week#58 AlertDialog 
+59. Week#59 AnimatedCrossFade
 
 Todo:
 

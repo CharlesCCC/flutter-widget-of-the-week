@@ -57,6 +57,7 @@ class Const {
   static const WEEK56_DataTable = 'Week_56_DataTable';
   static const WEEK57_Slider = 'Week_57_Slider';
   static const WEEK58_AlertDialog = 'Week_58_AlertDialog';
+  static const WEEK59_AnimatedCrossFade = 'Week_59_AnimatedCrossFade';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -117,5 +118,6 @@ class Const {
     WEEK56_DataTable,
     WEEK57_Slider,
     WEEK58_AlertDialog,
+    WEEK59_AnimatedCrossFade,
   ];
 }

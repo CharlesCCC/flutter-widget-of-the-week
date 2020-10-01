@@ -55,6 +55,7 @@ import 'package:FWoW/screens/week58_AlertDialog.dart';
 import 'package:FWoW/screens/week59_AnimatedCrossFade.dart';
 import 'package:FWoW/screens/week5_opacity.dart';
 import 'package:FWoW/screens/week60_DraggableScrollableSheet.dart';
+import 'package:FWoW/screens/week61_ColorFiltered.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
@@ -193,6 +194,8 @@ class MyApp extends StatelessWidget {
       Const.WEEK60_DraggableScrollableSheet: (context) =>
           Week60DraggableScrollableSheet(
               title: Const.WEEK60_DraggableScrollableSheet),
+      Const.WEEK61_ColorFilter: (context) =>
+          Week61ColorFilter(title: Const.WEEK61_ColorFilter),
     };
   }
 }

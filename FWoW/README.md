@@ -66,6 +66,7 @@ A new Flutter project.
 58. Week#58 AlertDialog 
 59. Week#59 AnimatedCrossFade
 60. Week#60 DraggableScrollableSheet
+61. Week#61 ColorFiltered
 
 Todo:
 

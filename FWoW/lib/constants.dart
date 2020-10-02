@@ -61,6 +61,7 @@ class Const {
   static const WEEK60_DraggableScrollableSheet =
       'Week_60_DraggableScrollableSheet';
   static const WEEK61_ColorFilter = 'Week_61_ColorFilter';
+  static const WEEK62_ToggleButtons = 'Week_62_ToggleButtons';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -124,5 +125,6 @@ class Const {
     WEEK59_AnimatedCrossFade,
     WEEK60_DraggableScrollableSheet,
     WEEK61_ColorFilter,
+    WEEK62_ToggleButtons,
   ];
 }

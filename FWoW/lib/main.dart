@@ -58,6 +58,7 @@ import 'package:FWoW/screens/week60_DraggableScrollableSheet.dart';
 import 'package:FWoW/screens/week61_ColorFiltered.dart';
 import 'package:FWoW/screens/week62_ToggleButtons.dart';
 import 'package:FWoW/screens/week63_CupertinoActionSheet.dart';
+import 'package:FWoW/screens/week64_TweenAnimationBuilder.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
@@ -202,6 +203,9 @@ class MyApp extends StatelessWidget {
           Wweek62ToggleButtons(title: Const.WEEK62_ToggleButtons),
       Const.WEEK63_CupertinoActionSheet: (context) =>
           Week63CupertinoActionSheet(title: Const.WEEK63_CupertinoActionSheet),
+      Const.WEEK64_TweenAnimationBuilder: (context) =>
+          Week64TweenAnimationBuilder(
+              title: Const.WEEK64_TweenAnimationBuilder),
     };
   }
 }

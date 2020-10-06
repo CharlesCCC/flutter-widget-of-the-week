@@ -65,6 +65,7 @@ class Const {
   static const WEEK63_CupertinoActionSheet = 'Week_63_CupertinoActionSheet';
   static const WEEK64_TweenAnimationBuilder = 'Week_64_TweenAnimationBuilder';
   static const WEEK65_Image = 'Week_65_Image';
+  static const WEEK66_DefaultTabController = 'Week_66_DefaultTabController';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -132,5 +133,6 @@ class Const {
     WEEK63_CupertinoActionSheet,
     WEEK64_TweenAnimationBuilder,
     WEEK65_Image,
+    WEEK66_DefaultTabController,
   ];
 }

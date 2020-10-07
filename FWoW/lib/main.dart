@@ -61,6 +61,7 @@ import 'package:FWoW/screens/week63_CupertinoActionSheet.dart';
 import 'package:FWoW/screens/week64_TweenAnimationBuilder.dart';
 import 'package:FWoW/screens/week65_Image.dart';
 import 'package:FWoW/screens/week66_DefaultTabControl.dart';
+import 'package:FWoW/screens/week67_Drawer.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
@@ -211,6 +212,8 @@ class MyApp extends StatelessWidget {
       Const.WEEK65_Image: (context) => Week65Image(title: Const.WEEK65_Image),
       Const.WEEK66_DefaultTabController: (context) =>
           Week66DefaultTabController(title: Const.WEEK66_DefaultTabController),
+      Const.WEEK67_Drawer: (context) =>
+          Week67Drawer(title: Const.WEEK67_Drawer),
     };
   }
 }

@@ -67,6 +67,7 @@ class Const {
   static const WEEK65_Image = 'Week_65_Image';
   static const WEEK66_DefaultTabController = 'Week_66_DefaultTabController';
   static const WEEK67_Drawer = 'Week_67_Drawer';
+  static const WEEK68_SnackBar = 'Week_68_SnackBar';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -136,5 +137,6 @@ class Const {
     WEEK65_Image,
     WEEK66_DefaultTabController,
     WEEK67_Drawer,
+    WEEK68_SnackBar,
   ];
 }

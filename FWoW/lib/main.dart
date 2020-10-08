@@ -62,6 +62,7 @@ import 'package:FWoW/screens/week64_TweenAnimationBuilder.dart';
 import 'package:FWoW/screens/week65_Image.dart';
 import 'package:FWoW/screens/week66_DefaultTabControl.dart';
 import 'package:FWoW/screens/week67_Drawer.dart';
+import 'package:FWoW/screens/week68_SnackBar.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
@@ -214,6 +215,8 @@ class MyApp extends StatelessWidget {
           Week66DefaultTabController(title: Const.WEEK66_DefaultTabController),
       Const.WEEK67_Drawer: (context) =>
           Week67Drawer(title: Const.WEEK67_Drawer),
+      Const.WEEK68_SnackBar: (context) =>
+          Week68SnackBar(title: Const.WEEK68_SnackBar),
     };
   }
 }

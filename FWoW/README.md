@@ -1,6 +1,6 @@
 # FWoW
 
-A new Flutter project.
+Flutter Widget of the Week. A cumulative widgets implementation that came from the Flutter YouTube tutorial videos.  A very good start for learning Flutter and practice #ABC or #100DaysOfCode 
 
 ## Getting Started
 

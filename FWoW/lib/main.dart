@@ -68,6 +68,7 @@ import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
 import 'package:FWoW/screens/week9_pageView.dart';
+import 'package:FWoW/screens/week_ShaderMask.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -220,6 +221,9 @@ class MyApp extends StatelessWidget {
           Week68SnackBar(title: Const.WEEK68_SnackBar),
       Const.WEEK69_ListWheelScrollView: (context) =>
           Week69ListWheelScrollView(title: Const.WEEK69_ListWheelScrollView),
+      Const.WEEK70_ShaderMask: (context) => Week70ShaderMask(
+            title: Const.WEEK70_ShaderMask,
+          ),
     };
   }
 }

@@ -66,6 +66,7 @@ import 'package:FWoW/screens/week68_SnackBar.dart';
 import 'package:FWoW/screens/week69_ListWheelScrollView.dart';
 import 'package:FWoW/screens/week6_futureBuilder.dart';
 import 'package:FWoW/screens/week71_NotificationListener.dart';
+import 'package:FWoW/screens/week72_Builder.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
 import 'package:FWoW/screens/week9_pageView.dart';
@@ -228,6 +229,9 @@ class MyApp extends StatelessWidget {
       Const.WEEK71_NotificationListener: (context) =>
           Week71NotificationListener(
             title: Const.WEEK71_NotificationListener,
+          ),
+      Const.WEEK72_Builder: (context) => Week72Builder(
+            title: Const.WEEK72_Builder,
           ),
     };
   }

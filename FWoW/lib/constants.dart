@@ -71,6 +71,7 @@ class Const {
   static const WEEK69_ListWheelScrollView = 'Week_69_ListWheelScrollView';
   static const WEEK70_ShaderMask = 'Week_70_ShaderMask';
   static const WEEK71_NotificationListener = 'Week_71_NotificationListener';
+  static const WEEK72_Builder = 'Week_72_Builder';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -143,6 +144,7 @@ class Const {
     WEEK68_SnackBar,
     WEEK69_ListWheelScrollView,
     WEEK70_ShaderMask,
-    WEEK71_NotificationListener
+    WEEK71_NotificationListener,
+    WEEK72_Builder,
   ];
 }

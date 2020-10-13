@@ -78,6 +78,7 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 70. Week#70 ShaderMask
 71. Week#71 NotificationListener
 72. Week#72 Builder
+73. Week#73 ClipPath
 
 Todo:
 

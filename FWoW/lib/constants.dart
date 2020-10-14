@@ -73,6 +73,7 @@ class Const {
   static const WEEK71_NotificationListener = 'Week_71_NotificationListener';
   static const WEEK72_Builder = 'Week_72_Builder';
   static const WEEK73_ClipPath = 'Week_73_ClipPath';
+  static const WEEK74_ProgressIndicator = 'Week_74_ProgressIndicator';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -148,5 +149,6 @@ class Const {
     WEEK71_NotificationListener,
     WEEK72_Builder,
     WEEK73_ClipPath,
+    WEEK74_ProgressIndicator,
   ];
 }

@@ -79,6 +79,7 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 71. Week#71 NotificationListener
 72. Week#72 Builder
 73. Week#73 ClipPath
+74. Week#74 ProgressIndicator
 
 Todo:
 

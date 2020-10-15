@@ -74,6 +74,7 @@ class Const {
   static const WEEK72_Builder = 'Week_72_Builder';
   static const WEEK73_ClipPath = 'Week_73_ClipPath';
   static const WEEK74_ProgressIndicator = 'Week_74_ProgressIndicator';
+  static const WEEK75_Divider = 'Week_75_Divider';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -150,5 +151,6 @@ class Const {
     WEEK72_Builder,
     WEEK73_ClipPath,
     WEEK74_ProgressIndicator,
+    WEEK75_Divider,
   ];
 }

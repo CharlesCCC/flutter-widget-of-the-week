@@ -69,6 +69,7 @@ import 'package:FWoW/screens/week71_NotificationListener.dart';
 import 'package:FWoW/screens/week72_Builder.dart';
 import 'package:FWoW/screens/week73_ClipPath.dart';
 import 'package:FWoW/screens/week74_ProgressIndicator.dart';
+import 'package:FWoW/screens/week75_Divider.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
 import 'package:FWoW/screens/week9_pageView.dart';
@@ -235,6 +236,8 @@ class MyApp extends StatelessWidget {
           Week73ClipPath(title: Const.WEEK73_ClipPath),
       Const.WEEK74_ProgressIndicator: (context) =>
           Week74ProgressIndicator(title: Const.WEEK74_ProgressIndicator),
+      Const.WEEK75_Divider: (context) =>
+          Week75Divider(title: Const.WEEK75_Divider),
     };
   }
 }

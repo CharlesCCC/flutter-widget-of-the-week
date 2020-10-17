@@ -76,6 +76,8 @@ class Const {
   static const WEEK74_ProgressIndicator = 'Week_74_ProgressIndicator';
   static const WEEK75_Divider = 'Week_75_Divider';
   static const WEEK76_IgnorePointer = 'Week_76_IgnorePointer';
+  static const WEEK77_CupertinoActivityIndicator =
+      'Week_77_CupertinoActivityIndicator';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -154,5 +156,6 @@ class Const {
     WEEK74_ProgressIndicator,
     WEEK75_Divider,
     WEEK76_IgnorePointer,
+    WEEK77_CupertinoActivityIndicator,
   ];
 }

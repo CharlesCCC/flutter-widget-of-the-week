@@ -83,9 +83,11 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 75. Week#75 Divider 
 76. Week#76 IgnorePointer
 77. Week#77 CupertinoActivityIndicator
+78. Week#78 ClipOval
 
 Todo:
 
 - [ ] enable check box for each Practice (Best for 100Day Code challenge practice)
 - [ ] Auto Post to Social Network(Twitter/Facebook/etc.) whenever one widget is finished to implement 
   - [ ] Require: have the ability to connect/share with Social Network
+- [ ] Add Search Box to Top

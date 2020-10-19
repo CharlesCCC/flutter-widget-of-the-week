@@ -73,6 +73,7 @@ import 'package:FWoW/screens/week75_Divider.dart';
 import 'package:FWoW/screens/week76_IgnorePointer.dart';
 import 'package:FWoW/screens/week77_CupertinoActivityIndicator.dart';
 import 'package:FWoW/screens/week78_ClipOval.dart';
+import 'package:FWoW/screens/week79_AnimatedWidget.dart';
 import 'package:FWoW/screens/week7_fadeTransition.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
 import 'package:FWoW/screens/week9_pageView.dart';
@@ -248,6 +249,8 @@ class MyApp extends StatelessWidget {
               title: Const.WEEK77_CupertinoActivityIndicator),
       Const.WEEK78_ClipOval: (context) =>
           Week78ClipOval(title: Const.WEEK78_ClipOval),
+      Const.WEEK79_AnimatedWidget: (context) =>
+          Week79AnimatedWidget(title: Const.WEEK79_AnimatedWidget),
     };
   }
 }

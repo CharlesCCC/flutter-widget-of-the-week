@@ -84,6 +84,7 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 76. Week#76 IgnorePointer
 77. Week#77 CupertinoActivityIndicator
 78. Week#78 ClipOval
+79. Week#79 AnimatedWidget
 
 Todo:
 

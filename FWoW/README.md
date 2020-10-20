@@ -85,6 +85,7 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 77. Week#77 CupertinoActivityIndicator
 78. Week#78 ClipOval
 79. Week#79 AnimatedWidget
+80. Week#80 Padding
 
 Todo:
 

@@ -80,6 +80,7 @@ class Const {
       'Week_77_CupertinoActivityIndicator';
   static const WEEK78_ClipOval = 'Week_78_ClipOval';
   static const WEEK79_AnimatedWidget = 'Week_79_AnimatedWidget';
+  static const WEEK80_Padding = 'Week_80_Padding';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -161,5 +162,6 @@ class Const {
     WEEK77_CupertinoActivityIndicator,
     WEEK78_ClipOval,
     WEEK79_AnimatedWidget,
+    WEEK80_Padding,
   ];
 }

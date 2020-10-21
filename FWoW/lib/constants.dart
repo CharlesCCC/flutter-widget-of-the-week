@@ -81,6 +81,7 @@ class Const {
   static const WEEK78_ClipOval = 'Week_78_ClipOval';
   static const WEEK79_AnimatedWidget = 'Week_79_AnimatedWidget';
   static const WEEK80_Padding = 'Week_80_Padding';
+  static const WEEK81_CheckboxListTile = 'Week_81_CheckboxListTile';
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
@@ -163,5 +164,6 @@ class Const {
     WEEK78_ClipOval,
     WEEK79_AnimatedWidget,
     WEEK80_Padding,
+    WEEK81_CheckboxListTile,
   ];
 }

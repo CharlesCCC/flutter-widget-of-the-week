@@ -87,6 +87,7 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 79. Week#79 AnimatedWidget
 80. Week#80 Padding
 81. Week#81 CheckboxListTile
+82. Week#82 AboutDialog
 
 Todo:
 

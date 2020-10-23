@@ -81,9 +81,15 @@ import 'package:FWoW/screens/week82_AboutDialog.dart';
 import 'package:FWoW/screens/week8_floatingActionButton.dart';
 import 'package:FWoW/screens/week9_pageView.dart';
 import 'package:FWoW/screens/week70_ShaderMask.dart';
+import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  //have to do this because async main()
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await SpUtil.getInstance();
+
   runApp(MyApp());
 }
 
@@ -287,7 +293,14 @@ class _MyHomePageState extends State<MyHomePage> {
             return ListTile(
               leading: Icon(Icons.developer_board),
               title: Text(Const.ROUTES[index]),
-              trailing: Icon(Icons.check_box_outline_blank),
+              trailing: Checkbox(
+                value: SpUtil.getBool(Const.ROUTES[index]),
+                onChanged: (value) {
+                  setState(() {
+                    SpUtil.putBool(Const.ROUTES[index], value);
+                  });
+                },
+              ),
               onTap: () =>
                   Navigator.of(context).pushNamed('${Const.ROUTES[index]}'),
             );

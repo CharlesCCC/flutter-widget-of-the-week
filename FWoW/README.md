@@ -91,7 +91,7 @@ Flutter Widget of the Week. A cumulative widgets implementation that came from t
 
 Todo:
 
-- [ ] enable check box for each Practice (Best for 100Day Code challenge practice)
+- [x] enable check box for each Practice (Best for 100Day Code challenge practice)
 - [ ] Auto Post to Social Network(Twitter/Facebook/etc.) whenever one widget is finished to implement 
   - [ ] Require: have the ability to connect/share with Social Network
 - [ ] Add Search Box to Top

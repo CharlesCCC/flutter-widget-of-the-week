@@ -83,6 +83,7 @@ import 'package:FWoW/screens/week9_pageView.dart';
 import 'package:FWoW/screens/week70_ShaderMask.dart';
 import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
+import 'package:social_share/social_share.dart';
 
 void main() async {
   //have to do this because async main()
@@ -293,13 +294,40 @@ class _MyHomePageState extends State<MyHomePage> {
             return ListTile(
               leading: Icon(Icons.developer_board),
               title: Text(Const.ROUTES[index]),
-              trailing: Checkbox(
-                value: SpUtil.getBool(Const.ROUTES[index]),
-                onChanged: (value) {
-                  setState(() {
-                    SpUtil.putBool(Const.ROUTES[index], value);
-                  });
-                },
+              trailing: Container(
+                width: 150.0,
+                child: Row(
+                  children: [
+                    Checkbox(
+                      value: SpUtil.getBool(Const.ROUTES[index]),
+                      onChanged: (value) {
+                        setState(() {
+                          SpUtil.putBool(Const.ROUTES[index], value);
+                        });
+                      },
+                    ),
+                    RaisedButton(
+                      onPressed: () async {
+                        SocialShare.shareTwitter(Const.ROUTES[index],
+                                hashtags: [
+                                  "ABC",
+                                  "ABCF",
+                                  "FWoW",
+                                  "100DaysOfCode",
+                                  "Flutter",
+                                  "dart"
+                                ],
+                                url:
+                                    "https://github.com/CharlesCCC/flutter-widget-of-the-week/tree/master/FWoW",
+                                trailingText: "\n Accomplished")
+                            .then((data) {
+                          print(data);
+                        });
+                      },
+                      child: Text("Twitter"),
+                    ),
+                  ],
+                ),
               ),
               onTap: () =>
                   Navigator.of(context).pushNamed('${Const.ROUTES[index]}'),

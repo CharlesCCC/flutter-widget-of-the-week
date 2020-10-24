@@ -33,6 +33,13 @@ class _Week74ProgressIndicatorState extends State<Week74ProgressIndicator>
   }
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    _animationController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

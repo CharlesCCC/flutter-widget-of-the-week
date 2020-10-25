@@ -281,6 +281,16 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final TextEditingController _search = TextEditingController();
+  List<String> _routes = Const.ROUTES;
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    _search.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -288,51 +298,75 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: SafeArea(
-        child: ListView.builder(
-          itemCount: Const.ROUTES.length,
-          itemBuilder: (context, index) {
-            return ListTile(
-              leading: Icon(Icons.developer_board),
-              title: Text(Const.ROUTES[index]),
-              trailing: Container(
-                width: 150.0,
-                child: Row(
-                  children: [
-                    Checkbox(
-                      value: SpUtil.getBool(Const.ROUTES[index]),
-                      onChanged: (value) {
-                        setState(() {
-                          SpUtil.putBool(Const.ROUTES[index], value);
-                        });
-                      },
-                    ),
-                    RaisedButton(
-                      onPressed: () async {
-                        SocialShare.shareTwitter(Const.ROUTES[index],
-                                hashtags: [
-                                  "ABC",
-                                  "ABCF",
-                                  "FWoW",
-                                  "100DaysOfCode",
-                                  "Flutter",
-                                  "dart"
-                                ],
-                                url:
-                                    "https://github.com/CharlesCCC/flutter-widget-of-the-week/tree/master/FWoW",
-                                trailingText: "\n Accomplished")
-                            .then((data) {
-                          print(data);
-                        });
-                      },
-                      child: Text("Twitter"),
-                    ),
-                  ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              TextField(
+                controller: _search,
+                onSubmitted: (string) {
+                  if (string.isNotEmpty) {
+                    _routes = Const.ROUTES
+                        .where((element) => element
+                            .toLowerCase()
+                            .contains(_search.text.toLowerCase()))
+                        .toList();
+                  } else {
+                    _routes = Const.ROUTES;
+                  }
+                  setState(() {});
+                },
+              ),
+              Container(
+                height: ScreenUtil.getScaleH(context, 500),
+                child: ListView.builder(
+                  itemCount: _routes.length,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      leading: Icon(Icons.developer_board),
+                      title: Text(Const.ROUTES[index]),
+                      trailing: Container(
+                        width: 150.0,
+                        child: Row(
+                          children: [
+                            Checkbox(
+                              value: SpUtil.getBool(_routes[index]),
+                              onChanged: (value) {
+                                setState(() {
+                                  SpUtil.putBool(_routes[index], value);
+                                });
+                              },
+                            ),
+                            RaisedButton(
+                              onPressed: () async {
+                                SocialShare.shareTwitter(_routes[index],
+                                        hashtags: [
+                                          "ABC",
+                                          "ABCF",
+                                          "FWoW",
+                                          "100DaysOfCode",
+                                          "Flutter",
+                                          "dart"
+                                        ],
+                                        url:
+                                            "https://github.com/CharlesCCC/flutter-widget-of-the-week/tree/master/FWoW",
+                                        trailingText: "\n Accomplished")
+                                    .then((data) {
+                                  print(data);
+                                });
+                              },
+                              child: Text("Twitter"),
+                            ),
+                          ],
+                        ),
+                      ),
+                      onTap: () =>
+                          Navigator.of(context).pushNamed('${_routes[index]}'),
+                    );
+                  },
                 ),
               ),
-              onTap: () =>
-                  Navigator.of(context).pushNamed('${Const.ROUTES[index]}'),
-            );
-          },
+            ],
+          ),
         ),
       ),
     );

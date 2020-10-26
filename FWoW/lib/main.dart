@@ -281,13 +281,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final TextEditingController _search = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
   List<String> _routes = Const.ROUTES;
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    _search.dispose();
+    _searchController.dispose();
     super.dispose();
   }
 
@@ -302,13 +301,14 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             children: [
               TextField(
-                controller: _search,
-                onSubmitted: (string) {
-                  if (string.isNotEmpty) {
+                controller: _searchController,
+                textAlign: TextAlign.center,
+                onSubmitted: (searchText) {
+                  if (searchText.isNotEmpty) {
                     _routes = Const.ROUTES
                         .where((element) => element
                             .toLowerCase()
-                            .contains(_search.text.toLowerCase()))
+                            .contains(_searchController.text.toLowerCase()))
                         .toList();
                   } else {
                     _routes = Const.ROUTES;
@@ -323,7 +323,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   itemBuilder: (context, index) {
                     return ListTile(
                       leading: Icon(Icons.developer_board),
-                      title: Text(Const.ROUTES[index]),
+                      title: Text(_routes[index]),
                       trailing: Container(
                         width: 150.0,
                         child: Row(

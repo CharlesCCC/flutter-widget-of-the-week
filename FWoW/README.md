@@ -96,4 +96,4 @@ Todo:
   - [x] Require: have the ability to connect/share with Social Network
   - [x] Twitter
   - [ ] Facebook
-- [ ] Add Search Box to Top
+- [x] Add Basic Search Box to Top

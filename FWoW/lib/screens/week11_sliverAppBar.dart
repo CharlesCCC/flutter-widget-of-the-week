@@ -27,9 +27,22 @@ class _Week11SliverAppBarState extends State<Week11SliverAppBar> {
             expandedHeight: 150,
             centerTitle: true,
             floating: true,
+            stretch: true,
             snap: true, //have to have floating set to true -- "Snap"
             pinned: false,
             title: Text("Sliver App Bar"),
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text("Flexible Space bar"),
+              stretchModes: [
+                StretchMode.zoomBackground,
+                StretchMode.blurBackground,
+                StretchMode.fadeTitle,
+              ],
+            ),
+            onStretchTrigger: () {
+              print('pull to refresh ~~~');
+              return;
+            },
           ),
           SliverGrid(
             gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(

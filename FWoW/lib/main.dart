@@ -316,6 +316,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   setState(() {});
                 },
               ),
+              Align(
+                alignment: Alignment.centerRight,
+                child: RaisedButton(
+                  onPressed: () {
+                    _searchController.clear();
+                    _routes = Const.ROUTES;
+                    setState(() {});
+                  },
+                  child: Text('Clear'),
+                ),
+              ),
               Container(
                 height: ScreenUtil.getScaleH(context, 500),
                 child: ListView.builder(

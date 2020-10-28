@@ -97,3 +97,4 @@ Todo:
   - [x] Twitter
   - [ ] Facebook
 - [x] Add Basic Search Box to Top
+- [ ] Come up Plan for further improvement

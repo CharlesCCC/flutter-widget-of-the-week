@@ -290,6 +290,62 @@ class _MyHomePageState extends State<MyHomePage> {
     super.dispose();
   }
 
+  Widget buildTextField() {
+    return TextField(
+      controller: _searchController,
+      textAlign: TextAlign.center,
+      onSubmitted: (searchText) {
+        if (searchText.isNotEmpty) {
+          _routes = Const.ROUTES
+              .where((element) => element
+                  .toLowerCase()
+                  .contains(_searchController.text.toLowerCase()))
+              .toList();
+        } else {
+          _routes = Const.ROUTES;
+        }
+        setState(() {});
+      },
+    );
+  }
+
+  Widget buildClearButton() {
+    return Align(
+      alignment: Alignment.centerRight,
+      child: RaisedButton(
+        onPressed: () {
+          _searchController.clear();
+          _routes = Const.ROUTES;
+          setState(() {});
+        },
+        child: Text('Clear'),
+      ),
+    );
+  }
+
+  Widget buildShareTwitter(int index) {
+    return RaisedButton(
+      onPressed: () async {
+        SocialShare.shareTwitter(_routes[index],
+                hashtags: [
+                  "ABC",
+                  "ABCF",
+                  "FWoW",
+                  "100DaysOfCode",
+                  "Flutter",
+                  "dart"
+                ],
+                url:
+                    "https://github.com/CharlesCCC/flutter-widget-of-the-week/tree/master/FWoW",
+                trailingText: "\n Accomplished")
+            .then((data) {
+          print(data);
+        });
+      },
+      child: Text("Twitter"),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -300,33 +356,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              TextField(
-                controller: _searchController,
-                textAlign: TextAlign.center,
-                onSubmitted: (searchText) {
-                  if (searchText.isNotEmpty) {
-                    _routes = Const.ROUTES
-                        .where((element) => element
-                            .toLowerCase()
-                            .contains(_searchController.text.toLowerCase()))
-                        .toList();
-                  } else {
-                    _routes = Const.ROUTES;
-                  }
-                  setState(() {});
-                },
-              ),
-              Align(
-                alignment: Alignment.centerRight,
-                child: RaisedButton(
-                  onPressed: () {
-                    _searchController.clear();
-                    _routes = Const.ROUTES;
-                    setState(() {});
-                  },
-                  child: Text('Clear'),
-                ),
-              ),
+              buildTextField(),
+              buildClearButton(),
               Container(
                 height: ScreenUtil.getScaleH(context, 500),
                 child: ListView.builder(
@@ -347,26 +378,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 });
                               },
                             ),
-                            RaisedButton(
-                              onPressed: () async {
-                                SocialShare.shareTwitter(_routes[index],
-                                        hashtags: [
-                                          "ABC",
-                                          "ABCF",
-                                          "FWoW",
-                                          "100DaysOfCode",
-                                          "Flutter",
-                                          "dart"
-                                        ],
-                                        url:
-                                            "https://github.com/CharlesCCC/flutter-widget-of-the-week/tree/master/FWoW",
-                                        trailingText: "\n Accomplished")
-                                    .then((data) {
-                                  print(data);
-                                });
-                              },
-                              child: Text("Twitter"),
-                            ),
+                            buildShareTwitter(index),
                           ],
                         ),
                       ),

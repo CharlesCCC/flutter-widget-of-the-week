@@ -295,30 +295,45 @@ class _MyHomePageState extends State<MyHomePage> {
       controller: _searchController,
       textAlign: TextAlign.center,
       onSubmitted: (searchText) {
-        if (searchText.isNotEmpty) {
-          _routes = Const.ROUTES
-              .where((element) => element
-                  .toLowerCase()
-                  .contains(_searchController.text.toLowerCase()))
-              .toList();
-        } else {
-          _routes = Const.ROUTES;
-        }
+        searchWidget(searchText);
         setState(() {});
       },
     );
   }
 
+  void searchWidget(String searchText) {
+    if (searchText.isNotEmpty) {
+      _routes = Const.ROUTES
+          .where((element) =>
+              element.toLowerCase().contains(searchText.toLowerCase()))
+          .toList();
+    } else {
+      _routes = Const.ROUTES;
+    }
+  }
+
   Widget buildClearButton() {
     return Align(
       alignment: Alignment.centerRight,
-      child: RaisedButton(
-        onPressed: () {
-          _searchController.clear();
-          _routes = Const.ROUTES;
-          setState(() {});
-        },
-        child: Text('Clear'),
+      child: Row(
+        children: [
+          RaisedButton(
+            onPressed: () {
+              _searchController.clear();
+              _routes = Const.ROUTES;
+              setState(() {});
+            },
+            child: Text('Clear'),
+          ),
+          SizedBox(width: 100),
+          RaisedButton(
+            onPressed: () {
+              searchWidget(_searchController.text);
+              setState(() {});
+            },
+            child: Text('Search'),
+          ),
+        ],
       ),
     );
   }

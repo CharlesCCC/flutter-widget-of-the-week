@@ -313,28 +313,25 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget buildClearButton() {
-    return Align(
-      alignment: Alignment.centerRight,
-      child: Row(
-        children: [
-          RaisedButton(
-            onPressed: () {
-              _searchController.clear();
-              _routes = Const.ROUTES;
-              setState(() {});
-            },
-            child: Text('Clear'),
-          ),
-          SizedBox(width: 100),
-          RaisedButton(
-            onPressed: () {
-              searchWidget(_searchController.text);
-              setState(() {});
-            },
-            child: Text('Search'),
-          ),
-        ],
-      ),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        RaisedButton(
+          onPressed: () {
+            _searchController.clear();
+            _routes = Const.ROUTES;
+            setState(() {});
+          },
+          child: Text('Clear'),
+        ),
+        RaisedButton(
+          onPressed: () {
+            searchWidget(_searchController.text);
+            setState(() {});
+          },
+          child: Text('Search'),
+        ),
+      ],
     );
   }
 
@@ -372,7 +369,10 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             children: [
               buildTextField(),
-              buildClearButton(),
+              Align(
+                alignment: Alignment.bottomRight,
+                child: buildClearButton(),
+              ),
               Container(
                 height: ScreenUtil.getScaleH(context, 500),
                 child: ListView.builder(

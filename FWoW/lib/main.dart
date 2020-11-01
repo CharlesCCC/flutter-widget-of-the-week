@@ -369,10 +369,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             children: [
               buildTextField(),
-              Align(
-                alignment: Alignment.bottomRight,
-                child: buildClearButton(),
-              ),
+              buildClearButton(),
+              SizedBox(height: 15.0),
               Container(
                 height: ScreenUtil.getScaleH(context, 500),
                 child: ListView.builder(

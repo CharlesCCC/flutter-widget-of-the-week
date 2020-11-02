@@ -15,6 +15,7 @@ class Week1SafeArea extends StatelessWidget {
           itemCount: 40,
           itemBuilder: (context, index) => ListTile(
             title: Text('ListTile $index'),
+            subtitle: Text('safe area'),
           ),
         ),
       ),

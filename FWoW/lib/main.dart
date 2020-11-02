@@ -313,8 +313,9 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget buildClearButton() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
+    return Wrap(
+      alignment: WrapAlignment.end,
+      spacing: 45.0,
       children: [
         RaisedButton(
           onPressed: () {

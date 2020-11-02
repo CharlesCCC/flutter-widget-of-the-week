@@ -46,7 +46,7 @@ class Week3Wrap extends StatelessWidget {
             ),
             Wrap(
               spacing: 25.0, // gap between adjacent chips
-              runSpacing: 100.0, // gap between lines
+              runSpacing: 10.0, // gap between lines
               children: <Widget>[
                 Chip(
                   avatar: CircleAvatar(

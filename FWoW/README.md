@@ -98,3 +98,4 @@ Todo:
   - [ ] Facebook
 - [x] Add Basic Search Box to Top
 - [ ] Come up Plan for further improvement
+- [ ] Add category for each Widget

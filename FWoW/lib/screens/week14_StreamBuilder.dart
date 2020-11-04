@@ -44,18 +44,10 @@ class _Week14StreamBuilderState extends State<Week14StreamBuilder> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button (bid) this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
             StreamBuilder(
               stream: _getCounterStream(),
               builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
                 List<Widget> children;
-
                 if (snapshot.hasError) {
                   children = <Widget>[
                     Icon(

@@ -37,7 +37,7 @@ class _Week5OpacityState extends State<Week5Opacity> {
             AnimatedOpacity(
               opacity: _visible ? 1.0 : 0.0,
               duration: Duration(seconds: 2),
-              child: const Text("Now you see me, now you don't!"),
+              child: const Text("Now you see me, or you don't!"),
             ),
             Text("With 0.5 Opacity"),
             Opacity(

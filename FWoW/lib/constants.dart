@@ -1,4 +1,5 @@
 class Const {
+  //Route
   static const WEEK1_SafeArea = 'Week#1_SafeArea';
   static const WEEK2_Expanded = 'Week#2_Expanded';
   static const WEEK3_Wrap = 'Week#3_Wrap';
@@ -83,6 +84,15 @@ class Const {
   static const WEEK80_Padding = 'Week_80_Padding';
   static const WEEK81_CheckboxListTile = 'Week_81_CheckboxListTile';
   static const WEEK82_AboutDialog = 'Week_82_AboutDialog';
+
+  //Widget Category
+  static const PLACE_HOLDER = 'PlaceHolder';
+  static const UI_HELPER = 'UIHelper';
+
+  static const List<Map<String, dynamic>> ROUTES_MAPS = [
+    {WEEK1_SafeArea: PLACE_HOLDER},
+    {WEEK2_Expanded: UI_HELPER},
+  ];
 
   static const List<String> ROUTES = [
     WEEK1_SafeArea,

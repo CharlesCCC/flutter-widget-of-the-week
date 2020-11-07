@@ -158,8 +158,8 @@ class MyApp extends StatelessWidget {
       Const.WEEK27_AnimatedBuilder: (context) => Week27AnimatedBuilder(),
       Const.WEEK28_Dismissible: (context) =>
           Week28Dismissible(title: Const.WEEK28_Dismissible),
-      Const.WEEk29_SizedBox: (context) =>
-          Week29SizedBox(title: Const.WEEk29_SizedBox),
+      Const.WEEK29_SizedBox: (context) =>
+          Week29SizedBox(title: Const.WEEK29_SizedBox),
       Const.WEEK30_ValueListenableBuilder: (context) =>
           Week30ValueListenableBuilder(
               title: Const.WEEK30_ValueListenableBuilder),

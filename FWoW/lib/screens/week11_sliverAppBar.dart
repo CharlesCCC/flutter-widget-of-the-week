@@ -10,14 +10,6 @@ class Week11SliverAppBar extends StatefulWidget {
 }
 
 class _Week11SliverAppBarState extends State<Week11SliverAppBar> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,23 +56,18 @@ class _Week11SliverAppBarState extends State<Week11SliverAppBar> {
           )
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(
-          title: Text('A'),
+          label: 'A',
           icon: Icon(Icons.ac_unit),
         ),
         BottomNavigationBarItem(
-          title: Text('B'),
+          label: 'B',
           icon: Icon(Icons.ac_unit),
         ),
         BottomNavigationBarItem(
-          title: Text('C'),
+          label: 'C',
           icon: Icon(Icons.ac_unit),
         ),
       ]),

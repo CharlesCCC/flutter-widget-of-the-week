@@ -28,7 +28,7 @@ class Const {
   static const WEEK26_Positioned = 'week_26_Positioned';
   static const WEEK27_AnimatedBuilder = 'week_27_AnimatedBuilder';
   static const WEEK28_Dismissible = 'week_28_Dismissible';
-  static const WEEk29_SizedBox = 'week_29_SizedBox';
+  static const WEEK29_SizedBox = 'week_29_SizedBox';
   static const WEEK30_ValueListenableBuilder = 'week_30_ValueListenableBuilder';
   static const WEEK31_Draggable = 'week_31_Draggable';
   static const WEEK32_AnimatedList = 'week_32_AnimatedList';
@@ -174,6 +174,7 @@ class Const {
     {WEEK82_AboutDialog: PLACE_HOLDER},
   ];
 
+  // ignore: non_constant_identifier_names
   static const List<String> ROUTES = [
     WEEK1_SafeArea,
     WEEK2_Expanded,
@@ -203,7 +204,7 @@ class Const {
     WEEK26_Positioned,
     WEEK27_AnimatedBuilder,
     WEEK28_Dismissible,
-    WEEk29_SizedBox,
+    WEEK29_SizedBox,
     WEEK30_ValueListenableBuilder,
     WEEK31_Draggable,
     WEEK32_AnimatedList,
@@ -258,4 +259,5 @@ class Const {
     WEEK81_CheckboxListTile,
     WEEK82_AboutDialog,
   ];
+  // List<String>.from(ROUTE_CATEGORY_MAPS.map((e) => e.keys.toList()));
 }

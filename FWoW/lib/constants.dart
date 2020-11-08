@@ -84,6 +84,7 @@ class Const {
   static const WEEK80_Padding = 'Week_80_Padding';
   static const WEEK81_CheckboxListTile = 'Week_81_CheckboxListTile';
   static const WEEK82_AboutDialog = 'Week_82_AboutDialog';
+  static const WEEK83_InterActiveViewer = 'Week83_InterActiveViewer';
 
   //Widget Category
   static const PLACE_HOLDER = 'PlaceHolder';
@@ -172,6 +173,7 @@ class Const {
     {WEEK80_Padding: PLACE_HOLDER},
     {WEEK81_CheckboxListTile: PLACE_HOLDER},
     {WEEK82_AboutDialog: PLACE_HOLDER},
+    {WEEK83_InterActiveViewer: PLACE_HOLDER},
   ];
 
   // ignore: non_constant_identifier_names
@@ -258,6 +260,7 @@ class Const {
     WEEK80_Padding,
     WEEK81_CheckboxListTile,
     WEEK82_AboutDialog,
+    WEEK83_InterActiveViewer,
   ];
   // List<String>.from(ROUTE_CATEGORY_MAPS.map((e) => e.keys.toList()));
 }

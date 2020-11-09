@@ -11,15 +11,7 @@ class Week15InheritedModel extends StatefulWidget {
 }
 
 class _Week15InheritedModelState extends State<Week15InheritedModel> {
-  int _counter = 0;
-
   int firstTick, secondTick, thirdTick;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   @override
   void initState() {
@@ -46,11 +38,6 @@ class _Week15InheritedModelState extends State<Week15InheritedModel> {
             ),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
       ),
     );
   }

@@ -10,14 +10,6 @@ class Week20FittedBox extends StatefulWidget {
 }
 
 class _Week20FittedBoxState extends State<Week20FittedBox> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,11 +38,6 @@ class _Week20FittedBoxState extends State<Week20FittedBox> {
             ),
           ),
         ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
       ),
     );
   }

@@ -37,13 +37,13 @@ class _Week8FloatingActionButtonState extends State<Week8FloatingActionButton> {
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(
-          title: Title(color: Colors.red, child: Text('A')),
+          label: 'A',
           icon: Icon(
             Icons.access_alarm,
           ),
         ),
         BottomNavigationBarItem(
-          title: Title(color: Colors.red, child: Text('B')),
+          label: 'B',
           icon: Icon(
             Icons.access_alarm,
           ),
